@@ -6,6 +6,10 @@ import Button from '../components/Button'
 import ContactForm from '../components/ContactForm'
 import Section from '../components/section'
 import TeamCard from '../components/TeamCard'
+
+import PictureLucas from '../assets/images/pessoas/lucas.jpeg'
+import PictureMariana from '../assets/images/pessoas/mariana.jpeg'
+import PictureMarcelo from '../assets/images/pessoas/marcelo.jpeg'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
@@ -79,11 +83,8 @@ const Home: NextPage = () => {
           <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
             {t('equipe.title')}
           </h3>
-          <h4 className=" my-3 text-4xl text-zinc-700 font-kreon dark:text-white ">
-            {t('equipe.subtitle')}
-          </h4>
           <p className=" my-3 text-2xl text-zinc-700 dark:text-white w-4/6">
-            {t('equipe.paragrapho')}
+            {t('equipe.subtitle')}
           </p>
         </div>
       </div>
@@ -93,19 +94,22 @@ const Home: NextPage = () => {
             <TeamCard
               name={t('equipe.card_1.name')}
               label={t('equipe.card_1.title')}
-              picture="uashdhuasd"
+              picture={PictureMarcelo}
+              description={t('equipe.card_1.descricao')}
             />
 
             <TeamCard
               name={t('equipe.card_2.name')}
               label={t('equipe.card_2.title')}
-              picture="uashdhuasd"
+              picture={PictureMariana}
+              description={t('equipe.card_2.descricao')}
             />
 
             <TeamCard
               name={t('equipe.card_3.name')}
               label={t('equipe.card_3.title')}
-              picture="uashdhuasd"
+              picture={PictureLucas}
+              description={t('equipe.card_3.descricao')}
             />
           </div>
         </div>
@@ -122,7 +126,6 @@ const Home: NextPage = () => {
 
           <div className="grid grid-cols-2 gap-3">
             <ContactForm />
-            <div></div>
           </div>
 
           <div className="my-3 py-6">

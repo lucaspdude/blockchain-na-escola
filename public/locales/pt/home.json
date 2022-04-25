@@ -1,36 +1,40 @@
 {
   "hero": {
-    "title": "lorem ipsun",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun"
+    "title": "Blockchain na Escola",
+    "subtitle": "Integrando alunos do ensino público no mundo da Blockchain",
+    "paragrapho": "Uma rede descentralizada de professores e criadores levando educação sobre blockchain e web3 para as salas de aula das escolas públicas e projetos sociais na América Latina."
   },
   "$nos": {
     "title": "$NOS",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun",
+    "subtitle": "O Token Social",
+    "paragrapho": "O nosso token social o $NOS vem da expressão brasileira “É nóix” que reafirma o senso de comunidade que vincula uma parcela enorme da nossa juventude. No entanto, o termo é traduzido pra o espanhol, sendo extraído da expressão “Nosotros”, (nós).",
+    "paragrapho_2": "“Tudo o que nóis tem, é nóis.” Emicida.",
     "readmore": "Leia Mais"
   },
   "cursos": {
     "title": "Cursos",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun",
-    "readmore": "Leia Mais"
+    "subtitle": "Uma trilha de conhecimento",
+    "paragrapho": "Temos uma trilha de cursos planejados que cobrem todos os conhecimentos necessários, desde a criação da sua primeira carteira até entender o funcionamento da Blockchain ",
+    "readmore": "Conheça os Cursos"
   },
   "equipe": {
     "title": "Equipe",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun",
+    "subtitle": "Temos uma equipe fantástica e bem entrosada, que constantemente prepara e organiza o melhor conteúdo para os nossos alunos e professores",
+    "paragrapho": "Nossa equipe ",
     "card_1": {
       "name": "Marcelo Silva",
-      "title": "Diretor"
+      "title": "Pesquisador",
+      "descricao": "Marcelo é um pesquisador (PhD) Brasileiro, com foco em análise e design institucional"
     },
     "card_2": {
       "name": "Mariana Motta",
-      "title": "Diretor"
+      "title": "Governadora",
+      "descricao": "Mariana é advogada cível e funcionária pública na cidade de João Neiva. Ela é especialista em leis de impostos.  "
     },
     "card_3": {
       "name": "Lucas Pacheco",
-      "title": "Diretor"
+      "title": "Desenvolvedor",
+      "descricao": "Lucas é desenvolvedor Full Stack, morador da cidade de Vitória"
     }
   },
   "contato": {

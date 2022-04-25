@@ -37,7 +37,7 @@ const TextArea: FunctionComponent<TextAreaProps> = ({
       {label && (
         <label
           htmlFor={name}
-          className="text-2xl text-zinc-800 dark:text-white uppercase"
+          className="text-xl font-bold text-zinc-600 dark:text-white uppercase"
         >
           {label}
         </label>
@@ -48,13 +48,16 @@ const TextArea: FunctionComponent<TextAreaProps> = ({
         name={name}
         id={name}
         defaultValue={defaultValue}
-        className="py-3 px-6 rounded-lg shadow-md bg-gray-50/75 my-3 dark:bg-zinc-800/75"
+        className={`py-3 px-6 rounded-lg shadow-md bg-gray-50/75 my-3 dark:bg-zinc-800/75 ${
+          error ? 'ring-2 ring-red-500' : ''
+        }`}
         onFocus={clearError}
         rows={5}
+        placeholder={placeholder}
         {...rest}
       ></textarea>
 
-      {error && <div className="text-red-500">{error}</div>}
+      {error && <div className="text-red-500 font-medium">{error}</div>}
     </div>
   )
 }
