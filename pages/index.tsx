@@ -1,15 +1,15 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next'
+import Section from '../components/section'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea non tempore
-        necessitatibus itaque harum esse pariatur repellendus corrupti quis
-        perspiciatis quibusdam, nobis hic dolore rem.
-      </p>
-    </div>
-  );
-};
+    <>
+      <Section title="titulo" content="lorem" identifier="identifier" />
+      <Section title="titulo" content="lorem" identifier="identifier" />
+      <Section title="titulo" content="lorem" identifier="identifier" />
+      <Section title="titulo" content="lorem" identifier="identifier" />
+    </>
+  )
+}
 
-export default Home;
+export default Home

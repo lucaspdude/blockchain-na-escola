@@ -15,7 +15,9 @@ const MainLayout: FunctionComponent<MainLayoutProps> = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <main className=" bg-gray-50 dark:bg-zinc-800 py-3 px-6 ">
+        <div className="  ">{children}</div>
+      </main>
     </>
   )
 }
