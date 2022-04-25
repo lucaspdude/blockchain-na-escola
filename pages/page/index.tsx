@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { GetStaticProps, NextPage } from 'next'
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import Heading from '../../components/Heading'
@@ -6,10 +6,10 @@ import Typography from '../../components/Typography'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 import { useTranslation } from 'next-i18next'
-export async function getStaticProps({ locale }) {
+export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(props.locale || 'pt-BR', ['common'])),
       // Will be passed to the page component as props
     },
   }

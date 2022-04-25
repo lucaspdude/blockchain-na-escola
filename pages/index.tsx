@@ -1,11 +1,11 @@
-import type { NextPage } from 'next'
+import type { GetStaticProps, NextPage } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { useTranslation } from 'react-i18next'
 import Section from '../components/section'
-export async function getStaticProps({ locale }) {
+export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common'])),
+      ...(await serverSideTranslations(props.locale || 'pt-BR', ['common'])),
       // Will be passed to the page component as props
     },
   }

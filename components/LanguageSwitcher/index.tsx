@@ -9,7 +9,7 @@ const LanguageSwitcher: FunctionComponent = () => {
   const router = useRouter()
   const languages = router.locales
 
-  const [currentLang, setCurrentLang] = useState<'pt' | 'en' | 'es'>('pt')
+  const [currentLang, setCurrentLang] = useState<string>('pt')
 
   const displayLang = () => {
     switch (currentLang) {
