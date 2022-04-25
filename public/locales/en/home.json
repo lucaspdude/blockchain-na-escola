@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "lorem ipsun",
+    "subtitle": "lorem ipsun",
+    "paragrapho": "lorem ipsun"
+  },
+  "$nos": {
+    "title": "$NOS",
+    "subtitle": "lorem ipsun",
+    "paragrapho": "lorem ipsun",
+    "readmore": "Leia Mais"
+  },
+  "cursos": {
+    "title": "Cursos",
+    "subtitle": "lorem ipsun",
+    "paragrapho": "lorem ipsun",
+    "readmore": "Leia Mais"
+  },
+  "equipe": {
+    "title": "Equipe",
+    "subtitle": "lorem ipsun",
+    "paragrapho": "lorem ipsun",
+    "card_1": {
+      "name": "Marcelo Silva",
+      "title": "Diretor"
+    },
+    "card_2": {
+      "name": "Mariana Motta",
+      "title": "Diretor"
+    },
+    "card_3": {
+      "name": "Lucas Pacheco",
+      "title": "Diretor"
+    }
+  },
+  "contato": {
+    "title": "Contatos",
+    "subtitle": "lorem ipsun",
+    "paragrapho": "lorem ipsun",
+    "formulario": {
+      "nome": "Nome",
+      "placeholder_nome": "Informe o nome",
+      "email": "Nome",
+      "placeholder_email": "Informe o email",
+      "mensagem": "Nome",
+      "placeholder_mensagem": "Escreva uma mensagem",
+      "enviar": "Enviar"
+    }
+  },
+  "redes": {
+    "title": "Redes Sociais",
+    "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais"
+  }
+}

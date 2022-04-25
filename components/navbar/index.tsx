@@ -40,9 +40,9 @@ const Menu = () => {
     <>
       <ul className="flex flex-col md:flex-row md:space-x-3 md:text-sm md:font-medium ">
         <NavLink title={t('header.menu.nossos-cursos')} route="/cursos" />
-        <NavLink title={t('header.menu.equipe')} route="/equipe" />
+        <NavLink title={t('header.menu.equipe')} route="/#home-team" />
         <NavLink title={t('header.menu.$nos')} route="/$nos" />
-        <NavLink title={t('header.menu.o-projeto')} route="/o-projeto" />
+        <NavLink title={t('header.menu.o-projeto')} route="/projeto" />
         <NavLink title={t('header.menu.participe')} route="/participe" />
       </ul>
       <div className=" my-6   md:my-auto">
@@ -60,7 +60,7 @@ const Navbar: FunctionComponent = () => {
   const { systemTheme, theme, setTheme } = useTheme()
 
   return (
-    <nav className="bg-green-500 dark:bg-zinc-900  sticky top-0 w-full shadow-lg flex items-center justify-center">
+    <nav className="bg-green-500 dark:bg-zinc-900  sticky  top-0 w-full shadow-lg flex items-center justify-center">
       <div className="container flex flex-wrap items-center justify-center   ">
         <div className="flex items-center justify-between w-full md:flex-1 px-6 ">
           <Link href="/">

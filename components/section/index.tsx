@@ -12,7 +12,7 @@ const Section: FunctionComponent<SectionProps> = ({
   title,
 }) => {
   return (
-    <div className="h-full px-5 py-12 flex items-center justify-center border border-red-500">
+    <div className=" px-5 py-12 flex items-center justify-center border border-red-500">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis alias
       reprehenderit odio, necessitatibus quae iusto quam rerum inventore
       architecto sit dolores neque asperiores totam itaque aliquam velit

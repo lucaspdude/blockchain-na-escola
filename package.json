@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
     "i18next": "^21.6.16",
     "next": "12.1.5",
     "next-i18next": "^11.0.0",

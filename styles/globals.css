@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@400;500;700&family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,400&display=swap');
 
 html,
 body,
@@ -31,4 +32,28 @@ a {
   ::selection {
     @apply text-white bg-indigo-500;
   }
+}
+
+.bg-hero {
+  background-image: url('../assets/images/bgs/bg-hero.png');
+  padding: 120px 0px;
+  min-height: 450px;
+  background-repeat: no-repeat;
+}
+
+.bg-pattern {
+  background-image: url('../assets/images/bgs/bg_pattern.svg');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.team-card-container {
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.team-card-function {
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
 }

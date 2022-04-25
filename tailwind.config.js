@@ -7,6 +7,10 @@ module.exports = {
 
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['"Poppins"'],
+        kreon: ['"Kreon"'],
+      },
       colors: {
         green: {
           50: '#f5fef9',
@@ -34,8 +38,8 @@ module.exports = {
         },
         gray: {
           50: '#F4F4F4',
-          100: '#F9F9F9',
-          200: '#C9C9C9',
+          100: '#f1f1f1',
+          200: '#F0F0F0',
           300: '#A9A9A9',
           400: '#2E2E30',
           500: '#282828',
