@@ -1,0 +1,16 @@
+{
+  "header": {
+    "idiomas": {
+      "portugues": "Português",
+      "ingles": "English",
+      "espanhol": "Espanhol"
+    },
+    "menu": {
+      "nossos-cursos": "Our Courses",
+      "equipe": "The Team",
+      "$nos": "$Nos",
+      "o-projeto": "The Project",
+      "participe": "Join"
+    }
+  }
+}

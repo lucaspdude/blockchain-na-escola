@@ -2,6 +2,7 @@ import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FunctionComponent, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { FiMenu, FiX } from 'react-icons/fi'
 
 import Logo from '../../assets/images/logo.svg'
@@ -33,14 +34,16 @@ const NavLink: FunctionComponent<NavLinkProps> = ({
 }
 
 const Menu = () => {
+  const { t } = useTranslation('common')
+
   return (
     <>
       <ul className="flex flex-col md:flex-row md:space-x-3 md:text-sm md:font-medium ">
-        <NavLink title="Nossos Cursos" route="/cursos" />
-        <NavLink title="Equipe" route="/equipe" />
-        <NavLink title="$NOS" route="/$nos" />
-        <NavLink title="O Projeto" route="/o-projeto" />
-        <NavLink title="Participe" route="/participe" />
+        <NavLink title={t('header.menu.nossos-cursos')} route="/cursos" />
+        <NavLink title={t('header.menu.equipe')} route="/equipe" />
+        <NavLink title={t('header.menu.$nos')} route="/$nos" />
+        <NavLink title={t('header.menu.o-projeto')} route="/o-projeto" />
+        <NavLink title={t('header.menu.participe')} route="/participe" />
       </ul>
       <div className=" my-6   md:my-auto">
         <LanguageSwitcher />
