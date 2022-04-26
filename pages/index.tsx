@@ -10,6 +10,8 @@ import TeamCard from '../components/TeamCard'
 import PictureLucas from '../assets/images/pessoas/lucas.jpeg'
 import PictureMariana from '../assets/images/pessoas/mariana.jpeg'
 import PictureMarcelo from '../assets/images/pessoas/marcelo.jpeg'
+import { useEffect } from 'react'
+import Meta from '../layouts/meta'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
@@ -31,8 +33,21 @@ const Home: NextPage = () => {
     router.push(route)
   }
 
+  useEffect(() => {
+    console.log('here')
+  }, [])
+
   return (
     <>
+      <Meta
+        title="Blockchain na Escola - Início"
+        keywords="Blockchain, Escola, Ensino, Escola Pública, Bitcoin, DAO, Organização"
+        description=""
+        ogTitle=""
+        ogType=""
+        ogUrl=""
+        ogImage=""
+      />
       <div className="bg-hero">
         <div className="container mx-auto  justify-center px-6 py-12  w-full ">
           <h3 className=" my-3 text-5xl text-white font-bold">

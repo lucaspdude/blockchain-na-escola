@@ -1,15 +1,17 @@
 import { FunctionComponent, ReactNode, useEffect, useState } from 'react'
-
+import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 interface ButtonProps {
   children: ReactNode | string
   variant: 'success' | 'info' | 'danger' | 'default'
-  onClick?: () => void
+  onClick: () => void
+  isLoading?: boolean
 }
 
 const Button: FunctionComponent<ButtonProps> = ({
   children,
   variant,
   onClick,
+  isLoading,
 }) => {
   const [styles, setStyles] = useState<string>(
     'py-3 px-10 bg-purple-500 font-bold text-2xl shadow-lg my-6 rounded-md hover:bg-purple-600 transition-all ease-in-out duration-200'
@@ -40,8 +42,12 @@ const Button: FunctionComponent<ButtonProps> = ({
   }, [variant])
 
   return (
-    <button onClick={onClick} className={styles}>
-      {children}
+    <button onClick={onClick} className={styles} disabled={isLoading}>
+      {isLoading ? (
+        <AiOutlineLoading3Quarters className="loading-spinner" />
+      ) : (
+        children
+      )}
     </button>
   )
 }

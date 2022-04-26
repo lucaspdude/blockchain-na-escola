@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { Children, FunctionComponent, ReactNode } from 'react'
 import Navbar from '../components/navbar'
+import Script from 'next/script'
+import Meta from './meta'
 
 interface MainLayoutProps {
   children: ReactNode
@@ -9,22 +11,25 @@ interface MainLayoutProps {
 const MainLayout: FunctionComponent<MainLayoutProps> = ({ children }) => {
   return (
     <>
-      <Head>
-        <title>Blockchain na Sala de Aula</title>
-        <meta name="description" content="Blockchain na sala de aula" />
-        <link rel="icon" href="/favicon.ico" />
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-G3W95J261Q"
+      ></Script>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Kreon:wght@400;500;700&family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,400&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
+      <Script
+        id="google-tag"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       <div className="flex flex-col">
         <Navbar />
         <main className=" h-full bg-gray-50 dark:bg-zinc-800 ">

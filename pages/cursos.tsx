@@ -1,8 +1,9 @@
 import type { GetStaticProps, NextPage } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Heading from '../components/Heading'
-import Section from '../components/section'
+import axios from 'axios'
 import Typography from '../components/Typography'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
@@ -15,6 +16,19 @@ export const getStaticProps: GetStaticProps = async (props) => {
 
 const Cursos: NextPage = () => {
   const { t } = useTranslation('common')
+
+  useEffect(() => {
+    console.log('here')
+
+    axios
+      .get('/api/notion')
+      .then((response) => {
+        console.log(response)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  }, [])
 
   return (
     <div className="container mx-auto  justify-center w-full px-6">

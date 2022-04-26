@@ -1,54 +1,62 @@
 {
   "hero": {
-    "title": "lorem ipsun",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun"
+    "title": "Blockchain en la Escuela",
+    "subtitle": "Integrando a los Estudiantes de Educación Pública en el Mundo Blockchain",
+    "paragrapho": "Una red descentralizada de maestros y creadores que lleva la educación blockchain y web3 a las aulas de las escuelas públicas y proyectos sociales en América Latina."
   },
   "$nos": {
     "title": "$NOS",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun",
-    "readmore": "Leia Mais"
+    "subtitle": "El Token Social",
+    "paragrapho": "Nuestro token social, $NOS, proviene de la expresión brasileña “É noix” que reafirma el sentido de comunidad que une a gran parte de nuestra juventud. Sin embargo, la expresión se traduce al español, extrayéndose de la palabra “Nosotros”, (nosotros).",
+    "paragrapho_2": "“Tudo o que nóis tem, é nóis.” Emicida.",
+    "readmore": "Leer más"
   },
   "cursos": {
     "title": "Cursos",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun",
-    "readmore": "Leia Mais"
+    "subtitle": "Un rastro de conocimiento",
+    "paragrapho": "Tenemos planeado un rastro de cursos que cubren todos los conocimientos necesarios, desde crear tu primera billetera hasta entender cómo funciona Blockchain.",
+    "readmore": "Conoce los Cursos"
   },
   "equipe": {
-    "title": "Equipe",
-    "subtitle": "lorem ipsun",
-    "paragrapho": "lorem ipsun",
+    "title": "Equipo",
+    "subtitle": "Contamos con un equipo fantástico y bien conectado que constantemente prepara y organiza el mejor contenido para nuestros estudiantes y profesores.",
+    "paragrapho": "Nuestro equipo ",
     "card_1": {
       "name": "Marcelo Silva",
-      "title": "Diretor"
+      "title": "Pesquisador",
+      "descricao": "Marcelo es un investigador brasileño (PhD), enfocado en análisis y diseño institucional"
     },
     "card_2": {
       "name": "Mariana Motta",
-      "title": "Diretor"
+      "title": "Governadora",
+      "descricao": "Mariana es abogada civil y funcionaria de la ciudad de João Neiva. Es especialista en derecho tributario.  "
     },
     "card_3": {
       "name": "Lucas Pacheco",
-      "title": "Diretor"
+      "title": "Desenvolvedor",
+      "descricao": "Lucas es un desarrollador Full Stack, residente en la ciudad de Vitória."
     }
   },
   "contato": {
-    "title": "Contatos",
-    "subtitle": "lorem ipsun",
+    "title": "Contactos",
+    "subtitle": "Puedes contactar con nosotros a través del formulario o a través de nuestras redes sociales",
     "paragrapho": "lorem ipsun",
     "formulario": {
-      "nome": "Nome",
-      "placeholder_nome": "Informe o nome",
-      "email": "Nome",
-      "placeholder_email": "Informe o email",
-      "mensagem": "Nome",
-      "placeholder_mensagem": "Escreva uma mensagem",
+      "nome": "Nombre",
+      "placeholder_nome": "Ingrese el nombre",
+      "email": "Email",
+      "placeholder_email": "Ingrese el correo electrónico",
+      "mensagem": "Mensaje",
+      "placeholder_mensagem": "Escribir un mensaje",
       "enviar": "Enviar"
     }
   },
   "redes": {
-    "title": "Redes Sociais",
+    "title": "Redes Sociales",
+    "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais"
+  },
+  "parcerias": {
+    "title": "Asociaciones",
     "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais"
   }
 }

@@ -13,13 +13,14 @@ import * as Yup from 'yup'
 import Image from 'next/image'
 
 const ContactForm = () => {
-  const ref = useRef<FormHandles>(null)
+  const formRef = useRef<FormHandles>(null)
 
   const { t } = useTranslation('home')
   const [hasSuccess, setHasSuccess] = useState<boolean>(false)
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const handleSubmit = async (data: unknown) => {
+    if (isLoading) return
     setIsLoading(true)
     try {
       const schema = Yup.object().shape({
@@ -34,6 +35,8 @@ const ContactForm = () => {
         abortEarly: false,
       })
 
+      console.log('validated', data)
+
       axios
         .post('/api/email', data)
         .then((response) => {
@@ -46,6 +49,7 @@ const ContactForm = () => {
           setIsLoading(false)
         })
     } catch (err) {
+      console.log(err)
       const validationErrors: any = {}
 
       if (err instanceof Yup.ValidationError) {
@@ -56,14 +60,14 @@ const ContactForm = () => {
         })
         console.log(validationErrors)
         setIsLoading(false)
-        ref?.current?.setErrors(validationErrors)
+        formRef?.current?.setErrors(validationErrors)
       }
       console.log(validationErrors)
     }
   }
   return (
     <div>
-      <Form ref={ref} onSubmit={handleSubmit}>
+      <Form ref={formRef} onSubmit={handleSubmit}>
         {hasSuccess ? (
           <div className="flex flex-col items-center">
             <p className="text-2xl text-white py-3 ">
@@ -93,7 +97,8 @@ const ContactForm = () => {
             <div className="flex justify-end">
               <Button
                 variant="default"
-                onClick={() => ref.current?.submitForm()}
+                onClick={() => formRef.current?.submitForm()}
+                isLoading={isLoading}
               >
                 Enviar
               </Button>

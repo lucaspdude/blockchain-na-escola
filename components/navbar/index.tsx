@@ -1,6 +1,7 @@
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { FunctionComponent, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FiMenu, FiX } from 'react-icons/fi'
@@ -22,10 +23,18 @@ const NavLink: FunctionComponent<NavLinkProps> = ({
   route,
   children,
 }) => {
+  const router = useRouter()
+
   return (
     <li>
       <Link href={route}>
-        <a className="block py-2  px-3 text-purple font-bold text-lg text-purple-500  dark:text-green-500 uppercase hover:bg-purple-500 hover:text-white rounded-full cursor-pointer transition-colors ease-in-out duration-200">
+        <a
+          className={`block py-2  px-3 text-purple  text-lg text-purple-500  dark:text-green-500 uppercase hover:bg-purple-500 hover:text-white hover:rounded-full cursor-pointer transition-all ease-in-out duration-200 ${
+            router.asPath === route
+              ? 'font-bold border-b-2 dark:border-b-green-500 border-b-purple-500'
+              : ''
+          }`}
+        >
           {title}
         </a>
       </Link>
@@ -60,7 +69,7 @@ const Navbar: FunctionComponent = () => {
   const { systemTheme, theme, setTheme } = useTheme()
 
   return (
-    <nav className="bg-green-500 dark:bg-zinc-900  sticky  top-0 w-full shadow-lg flex items-center justify-center">
+    <nav className="bg-green-500 dark:bg-zinc-900  sticky  top-0 w-full z-10 shadow-lg flex items-center justify-center">
       <div className="container flex flex-wrap items-center justify-center   ">
         <div className="flex items-center justify-between w-full md:flex-1 px-6 ">
           <Link href="/">

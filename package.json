@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
+    "@notionhq/client": "^1.0.4",
     "@trycourier/courier": "^3.12.0",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
