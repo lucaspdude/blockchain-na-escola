@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 import Heading from '../components/Heading'
 import axios from 'axios'
 import Typography from '../components/Typography'
+import Meta from '../layouts/meta'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
@@ -17,21 +18,17 @@ export const getStaticProps: GetStaticProps = async (props) => {
 const Cursos: NextPage = () => {
   const { t } = useTranslation('common')
 
-  useEffect(() => {
-    console.log('here')
-
-    axios
-      .get('/api/notion')
-      .then((response) => {
-        console.log(response)
-      })
-      .catch((error) => {
-        console.log(error)
-      })
-  }, [])
-
   return (
     <div className="container mx-auto  justify-center w-full px-6">
+      <Meta
+        title="Blockchain na Escola - Cursos"
+        keywords="Blockchain, Escola, Ensino, Escola Pública, Bitcoin, DAO, Organização"
+        description="Página inicial do projeto Blockchain na Escola"
+        ogTitle=""
+        ogType=""
+        ogUrl=""
+        ogImage=""
+      />
       <Heading variant="h2">Cursos</Heading>
       <Typography className="text-6xl my-16">
         Parece que a página solicitada não existe

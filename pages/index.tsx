@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       <Meta
         title="Blockchain na Escola - Início"
         keywords="Blockchain, Escola, Ensino, Escola Pública, Bitcoin, DAO, Organização"
-        description=""
+        description="Página inicial do projeto Blockchain na Escola"
         ogTitle=""
         ogType=""
         ogUrl=""
