@@ -35,10 +35,12 @@ a {
 }
 
 .bg-hero {
-  background-image: url('../assets/images/bgs/bg-hero.png');
+  background-image: url('../assets/images/bgs/bg_home_hero.png');
   padding: 120px 0px;
   min-height: 450px;
-  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  background-position: center;
 }
 
 .bg-pattern {

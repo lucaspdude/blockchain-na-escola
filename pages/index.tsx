@@ -48,15 +48,15 @@ const Home: NextPage = () => {
         ogUrl=""
         ogImage=""
       />
-      <div className="bg-hero">
+      <div className="bg-hero bg-fixed  bg-no-repeat bg-cover bg-center">
         <div className="container mx-auto  justify-center px-6 py-12  w-full ">
-          <h3 className=" my-3 text-5xl text-white font-bold">
+          <h3 className=" my-3 text-5xl text-white bg-purple-500 inline-block px-6 py-3 font-bold hover:shadow-lg">
             {t('hero.title')}
           </h3>
-          <h4 className=" my-3 text-4xl text-white ">{t('hero.subtitle')}</h4>
-          <p className=" my-3 text-2xl text-white w-4/6">
-            {t('hero.paragrapho')}
-          </p>
+          <h4 className=" my-3 text-4xl text-purple-500 bg-white inline-block  px-3 py-3">
+            {t('hero.subtitle')}
+          </h4>
+          <p className=" my-3 text-2xl text-white">{t('hero.paragrapho')}</p>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
           <h4 className=" my-3 text-4xl text-zinc-700 font-kreon dark:text-white ">
             {t('$nos.subtitle')}
           </h4>
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white md:w-4/6">
+          <p className=" my-3 text-2xl text-zinc-700 dark:text-white ">
             {t('$nos.paragrapho')}
           </p>
           <Button onClick={() => handleRedirect('/$nos')} variant="success">
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
           <h4 className=" my-3 text-4xl text-zinc-700 font-kreon dark:text-white ">
             {t('cursos.subtitle')}
           </h4>
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white w-4/6">
+          <p className=" my-3 text-2xl text-zinc-700 dark:text-white">
             {t('cursos.paragrapho')}
           </p>
           <Button onClick={() => handleRedirect('/cursos')} variant="default">
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
           <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
             {t('equipe.title')}
           </h3>
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white w-4/6">
+          <p className=" my-3 text-2xl text-zinc-700 dark:text-white">
             {t('equipe.subtitle')}
           </p>
         </div>
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
             {t('contato.subtitle')}.
           </h4>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="md:grid md:grid-cols-2 md:gap-3">
             <ContactForm />
           </div>
 
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
             <h3 className=" my-3 text-5xl text-zinc-700 dark:text-white font-bold ">
               {t('redes.title')}.
             </h3>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="md:grid md:grid-cols-3 md:gap-3">
               <div className="col-span-1">
                 <h4 className=" my-3 text-2xl text-zinc-700 dark:text-white font-bold">
                   Linkedin

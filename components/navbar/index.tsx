@@ -2,7 +2,7 @@ import { useTheme } from 'next-themes'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { FunctionComponent, useState } from 'react'
+import { FunctionComponent, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FiMenu, FiX } from 'react-icons/fi'
 
@@ -67,6 +67,13 @@ const Menu = () => {
 const Navbar: FunctionComponent = () => {
   const [shouldDisplay, setShouldDisplay] = useState<boolean>(false)
   const { systemTheme, theme, setTheme } = useTheme()
+
+  const router = useRouter()
+  useEffect(() => {
+    if (shouldDisplay) {
+      setShouldDisplay(false)
+    }
+  }, [router])
 
   return (
     <nav className="bg-green-500 dark:bg-zinc-900  sticky  top-0 w-full z-10 shadow-lg flex items-center justify-center">

@@ -146,7 +146,7 @@ const Projeto: NextPage = () => {
         <Typography className="font-bold text-purple-500 text-3xl">
           {t('projeto.subtitle9')}
         </Typography>
-        <div className="flex flex-row items-center justify-start">
+        <div className="flex flex-col items-center my-3 md:flex md:flex-row md:items-center md:justify-start">
           <Image
             src={PictureMariana}
             alt={`Governor Mariana`}
@@ -156,7 +156,7 @@ const Projeto: NextPage = () => {
           />
           <Typography className="mx-3">{t('projeto.governor1')}</Typography>
         </div>
-        <div className="flex flex-row items-center justify-start">
+        <div className="flex flex-col items-center my-3 md:flex md:flex-row md:items-center md:justify-start">
           <Image
             src={PictureMarcelo}
             alt={`Governor Marcelo`}
@@ -166,7 +166,7 @@ const Projeto: NextPage = () => {
           />
           <Typography className="mx-3">{t('projeto.governor2')}</Typography>
         </div>
-        <div className="flex flex-row items-center justify-start">
+        <div className="flex flex-col items-center my-3 md:flex md:flex-row md:items-center md:justify-start">
           <Image
             src={PictureLucas}
             alt={`Governor Marcelo`}
