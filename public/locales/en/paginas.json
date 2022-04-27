@@ -1,88 +1,126 @@
 {
+  "cursos": {
+    "title": "Courses Track",
+    "curso1": "How to prepare your Metamask in Google Chrome.",
+    "curso2": "Origin of Blockchain Technology.",
+    "curso3": "How to prepare your Metamask on mobile.",
+    "curso4": "Basic Elements of a Blockchain.",
+    "curso5": "Adding Blockchains, Cryptocurrencies and NFTs in Metamask",
+    "curso6": "How to convert cryptocurrencies into reais.",
+    "curso7": "What are NFTs?",
+    "curso8": "What are DeFi?",
+    "curso9": "What are ReFi?",
+    "curso10": "How to build your career in blockchain technology"
+  },
+  "$nos": {
+    "title": "$NOS - The Social Token",
+    "content1": "Our social token, $NOS, comes from the Brazilian expression “É Noix” that reaffirms the sense of community that binds a huge part of our youth. However, the term is translated into Spanish, being extracted from the expression \"Nosotros\", (us).",
+    "content2": "Our idea is to remember that everything we have is each other.",
+    "content3": "“All we have is us.” Emicida.",
+    "subtitle1": "What is a social token?",
+    "content4": "A social token is a way to transfer information between people and between institutions, for example, money (Real) is a type of token that transfers information about financial value between people. example, is a token that contains the information that the owner is entitled to an attempt to win the game.",
+    "content5": "One by Harmony is a token that allows you to access an ecosystem of blockchain services where you can transfer any type of information with extreme speed, security and low cost.",
+    "subtitle2": "What is $NOS for?",
+    "content6": "The life of $NOS will be divided into three stages, in the first part it will have a didactic function so that students of the course can have contact with a social token from its creation to its launch.",
+    "subtitle3": "1st Stage of $NOS",
+    "content7": "The token will be created together with the students and should be used to count the presence of each one in the classes, but it doesn't stop there: at the end of the course, students will organize themselves into groups, by affinity, and join their $NOS to hire consulting services from our network of collaborators. Consulting for what?",
+    "content8": "The goal of our initiative is that students have access to Web3, Blockchain and the innovation industry in general, and the access we want to offer is not as a workforce, but as a creator, developer or any other role of Protagonism.",
+    "content9": "We will have a strong team of consultants that you can check out by clicking here, and this team will grow as we expand to more cities and countries.",
+    "subtitle4": "2nd Stage of $NOS",
+    "content10": "In the second stage of the $NOS life, not only students, but anyone who owns it will be able to access our educational platform and enjoy our services (remembering that our students will continue to receive $NOS for learning). then the $NOS will have a financial value, since people and institutions will be able to acquire it either to access the services or to keep it as an investment.",
+    "subtitle5": "3rd Stage of $NOS",
+    "content11": "In the third stage of the life of $NOS, it will be used as one of the governance tools of our platform. With $NOS you will be able to decide the future of the platform as a whole, present new proposals, elect someone to some specific function, etc.",
+    "content12": "This stage is one of maturity that demands wisdom and justice. Otherwise, everything we build will become the object of someone who is rich enough to buy a lot of $NOS and decide the future of our network.",
+    "content13": "Therefore, to prevent this kind of thing, we will build a consensus system that is based on proportion rather than quantity (this system will be built in partnership with institutions that have expertise in governance, such as Token Engineers ).",
+    "content14": "Token Agreement: 0xDa409E3acA8354cD4d5706D27154dE4C8580e436",
+    "content15": "Name: NOS"
+  },
   "projeto": {
-    "title": "Blockchain na Escola - DAO",
-    "part1": "Ao longo das últimas décadas a narrativa sobre a América Latina mudou das cores e esperança para pobreza e autoritarismo.  \n \nEsta realidade destrói famílias, sonhos e gerações inteiras, roubando-lhes sua habilidade de sonhar. \n \nAo mesmo tempo, a industria web3 e a tecnologia blockchain surgem como ferramentas para liberar, empoderar e construir renda para sociedade civil. Mas, a falta de conteúdo em Português e Espanhol (não apenas na versão formal, mas em uma linguagem acessível para pessoas de contextos pobres) construiu uma parede que impede tais pessoas de acessarem estas ferramentas. \n \nComunidade, inovação e criatividade são alguns dos recursos mais escassos da terra e todos sã abundantes na América Latina. Foi este encontro de necessidades e recursos disponíveis que nos trouxe a ideia de construir um curso sobre Blockchain em uma escola pública num bairro pobre da cidade de Serra, ES. \n \nO curso tem ido bem e você pôde ver isso no primeiro link.  Por isso levantamos a pergunta: \n \n",
-    "subtitle2": "Por que formar uma DAO?",
-    "part2": "A fonte do sucesso do curso, o baixo custo e a possibilidade e alcançar o coração dos estudantes só é possível porque os professores estão vinculados aos estudantes em vários sentidos.\n \nSem esse pertencimento, seria inviável para o projeto alcançar os estudantes, e sem os recursos, seria inviável para as pessoas que alcançam os estudantes, se dedicar totalmente à tarefa de ensinar web3 e blockchain.\n \nPor isso que nós estamos criando uma rede descentralizada de professores que vão prover educação e percepção sobre blockchain e web3 no contexto das escolas públicas e projetos sociais em diferentes comunidades na América Latina.\n \nA medida que temos a intenção de expandir para diferentes regiões do Brasil e da América Latina, é necessário que os professores estejam vinculados aos alunos. É necessário que sejamos uma rede de cooperação, um ecossistema de educação e abrigo.\n \nO modelo institucional da DAO provê a infraestrutura para fazer tudo isso com custo baixo e um sistema de transparência e governança extremamente futurista e eficiente.\n \n",
-    "subtitle3": "Nossas Parcerias",
+    "title": "Blockchain at School - DAO",
+    "part1": "Over the last few decades the narrative about Latin America has changed from colors and hope to poverty and authoritarianism. \n \nThis reality destroys families, dreams and entire generations, robbing them of their ability to dream. \n \n At the same time, the web3 industry and blockchain technology emerge as tools to liberate, empower and build income for civil society. But the lack of content in Portuguese and Spanish (not only in the formal version, but in a language accessible to people of poor contexts) has built a wall that prevents such people from accessing these tools. \n \nCommunity, innovation and creativity are some of the scarcest resources on earth and they are all abundant in Latin America. It was this meeting of needs and available resources that brought us the idea of ​​building a course on Blockchain in a public school in a poor neighborhood in the city of Serra, ES.\n \nThe course has been going well and you could see it in the first link. we ask the question: \n \n",
+    "subtitle2": "Why form a DAO?",
+    "part2": "The source of the success of the course, the low cost and the possibility and reaching the hearts of the students is only possible because the professors are linked to the students in many ways.\n \nWithout this belonging, it would be unfeasible for the project reaching students, and without the resources, it would be unfeasible for people who reach students to fully dedicate themselves to the task of teaching web3 and blockchain.\n \nThat is why we are creating a decentralized network of teachers who will provide education and insight about blockchain and web3 in the context of public schools and social projects in different communities in Latin America.\n \nAs we intend to expand to different regions of Brazil and Latin America, it is necessary that teachers are linked to students. We need to be a network of cooperation, an ecosystem of education and shelter.\n \nThe DAO institutional model provides the infrastructure to do all this at a low cost and a s extremely futuristic and efficient transparency and governance system.\n \n",
+    "subtitle3": "Our Partnerships",
     "parcerias": {
-      "parcerias1": "BlackLeadersDAO (Oferta de conteúdo e formação de professores)",
-      "parcerias2": "Blockchain Press Club DAO (Compartilhamento de plataforma, conteúdo e formação de professores.)",
-      "parcerias3": "Mempodera DAO (Compartilhamento de conteúdo e formação de professores e alunos.)",
-      "parcerias4": "KreadivDAO (Divulgação mútua e Compartilhamento de Professores)",
-      "parcerias5": "Observatório Latino Americano de Blockchain (Compartilhamento de produção teórica)",
-      "parcerias6": "SteamHouse (Compartilhamento de token social $NOS, conteúdo e formação de professores.)"
+      "parcerias1": "BlackLeadersDAO (Content Offer and Teacher Training)",
+      "parcerias2": "Blockchain Press Club DAO (Sharing platform, content and teacher training.)",
+      "parcerias3": "Mempodera DAO (Sharing content and training of teachers and students.)",
+      "parcerias4": "KreadivDAO (Mutual Disclosure and Teacher Sharing)",
+      "parcerias5": "Latin American Blockchain Observatory (Theoretical Production Sharing)",
+      "parcerias6": "SteamHouse (Sharing $NOS social token, content and teacher training.)"
     },
-    "subtitle4": "Sustentabilidade",
-    "part4": "A sustentabilidade (institucional e financeira) será o principal desafio das DAOs nos próximos meses, por isso nós temos duas abordagens para este tema: \n \nNós vemos a sustentabilidade institucional como a capacidade como o elo que vincula várias gerações a um mesmo objetivo, por isso uma das tarefas dos nossos governadores será educar os novos sobre as ferramentas, desafios e requisitos para o papel de governador.  \n \nA segunda abordagem é vinculada à prestação de contas, por isso cada governador estará vinculado à tarefa dos contribuidores para que ambos possam, juntos, administrar o tempo e os recursos para impedir surpresas ruins. \n \nSobre a sustentabilidade financeira, temos três abordagens: \n \nA primeira trata de consolidar nosso projeto como referência de excelência para que possamos oferecer educação a escolas e entidades particulares (sempre na proporção de 7-3, sete escolas públicas ou projetos sociais e três entidades privadas). \n \nFornecer conteúdo didático sob demanda para outros DAOs e entidades (devido ao alto custo de produção de conteúdo didático várias instituições tendem a reutilizar o mesmo conteúdo em diferentes abordagens, mas sabemos que o conteúdo produzido fora do contexto do aluno pode não ter recursos para tocar o coração. Como o background será um dos nossos principais recursos, conseguiremos produzir conteúdo didático com um custo razoável.) \n \nA terceira será a utilização de mercado de liquidez (com e sem perda temporária) para que possamos gerar renda no longo prazo. Todos os recursos cujo cronograma de despesas ultrapasse um mês serão alocados em um pool de liquidez para que continue a produzir taxas que podemos coletar. \n \n",
-    "subtitle5": "A Primeira Expansão",
-    "part5": "Na primeira expansão (2022) o projeto abrangerá as cidades brasileiras: \n \nSerra, no estado do Espírito Santo. (30 alunos) \n \nMacaé, no estado do Rio de Janeiro. (50 alunos) \n \nCubatão, no estado de São Paulo. (128 alunos) \n \nSão Luiz do Maranhão, no estado do Maranhão. (64 alunos) \n \nRio de Janeiro, estado do Rio de Janeiro (10 alunos) \n \nBelo Horizonte, Minas Gerais (18 alunos) \n \nTotal para a primeira edição: 300 alunos \n \n",
-    "subtitle6": "Nossas metas para o primeiro ano são:",
+    "subtitle4": "Sustainability",
+    "part4": "Sustainability (institutional and financial) will be the main challenge for DAOs in the coming months, so we have two approaches to this topic: \n \nWe see institutional sustainability as capacity as the link that links several generations the same objective, so one of the tasks of our governors will be to educate the new about the tools, challenges and requirements for the role of governor.\n \nThe second approach is linked to accountability, so each governor will be linked to the contributors' task so that both can, together, manage time and resources to prevent bad surprises.\n \nAbout financial sustainability, we have three approaches: \n \nThe first is to consolidate our project as a reference of excellence so that we can offer education to schools and private entities (always in the proportion of 7-3, seven public schools or social projects and three private entities). \n \nProvide didactic content ico on demand for other DAOs and entities (due to the high cost of producing didactic content, several institutions tend to reuse the same content in different approaches, but we know that content produced outside the student's context may not have the resources to touch the heart. As the background will be one of our main resources, we will be able to produce educational content at a reasonable cost.) \n \nThe third will be the use of liquidity market (with and without temporary loss) so that we can generate income in the long term. All funds whose spending schedule exceeds one month will be allocated to a liquidity pool so that it continues to produce fees that we can collect. \n\n",
+    "subtitle5": "The First Expansion",
+    "part5": "In the first expansion (2022) the project will cover the Brazilian cities: \n \nSerra, in the state of Espírito Santo. (30 students) \n \nMacaé, in the state of Rio de Janeiro. (50 students) \n \nCubatão, in the state of São Paulo (128 students) \n \nSão Luiz do Maranhão, in the state of Maranhão (64 students) \n \nRio de Janeiro, state of Rio de Janeiro (10 students) \n \nBelo Horizonte, Minas Gerais (18 students) \n \nTotal for the first edition: 300 students \n \n",
+    "subtitle6": "Our goals for the first year are:",
     "goals1": {
-      "goal1": "Construir a estrutura online do projeto (site, telegrama, discord, etc).",
-      "goal2": "Construir a estrutura administrativa do projeto (governança, prestação de contas, legal, etc).",
-      "goal3": "Construir uma rede de cooperação com outras instituições para reduzir custos e aumentar nossa eficiência.",
-      "goal4": "Expandir o projeto para pelo menos mais dois países da América Latina (Já em negociações com Argentina e México)",
-      "goal5": "Expandir o número de novos alunos para 1.000.",
-      "goal6": "Formar 30 professores por ano.",
-      "goal7": "Construir 2 MVPs para sustentabilidade financeira que possam ser replicados.",
-      "goal8": "Construir dois cursos introdutórios online sobre blockchain e web3 em português e espanhol (não apenas a linguagem formal, mas refletindo a cultura de cada país da América Latina)."
+      "goal1": "Build the project's online structure (website, telegram, discord, etc.).",
+      "goal2": "Build the project's administrative structure (governance, accountability, legal, etc.).",
+      "goal3": "Build a cooperation network with other institutions to reduce costs and increase our efficiency.",
+      "goal4": "Expand the project to at least two more Latin American countries (Already in negotiations with Argentina and Mexico)",
+      "goal5": "Expand the number of new students to 1000.",
+      "goal6": "Train 30 teachers per year.",
+      "goal7": "Build 2 MVPs for financial sustainability that can be replicated.",
+      "goal8": "Build two introductory online courses on blockchain and web3 in Portuguese and Spanish (not just the formal language, but reflecting the culture of each Latin American country)."
     },
     "subtitle7": "Nossas metas para os primeiros cinco anos são:",
     "goals2": {
-      "goal1": "Construir uma academia online para oferecer educação, gratuitamente, para escolas públicas e projetos sociais. (2 anos)",
-      "goal2": "Formar 100 professores todos os anos. (2 anos)",
-      "goal3": "Construir um ecossistema de serviços entre nossos parceiros. (2 anos)",
-      "goal4": "Ter pelo menos três países com estruturas de sustentabilidade financeira. (4 anos)",
-      "goal5": "Capacitar 1.000 alunos por ano em pelo menos 3 países da LATAM. (4 anos)",
-      "goal6": "Construir pelo menos 5 MVPs para sustentabilidade financeira que possam ser replicados. (5 anos)",
-      "goal7": "Expandir para todos os países da LATAM. (5 anos)"
+      "goal1": "Build an online academy to offer education, free of charge, to public schools and social projects. (2 years)",
+      "goal2": "Train 100 teachers every year. (2 years)",
+      "goal3": "Build an ecosystem of services among our partners. (2 years)",
+      "goal4": "Have at least three countries with financial sustainability structures. (4 years)",
+      "goal5": "Educate 1,000 students per year in at least 3 LATAM countries. (4 years)",
+      "goal6": "Build at least 5 MVPs for financial sustainability that can be replicated. (5 years)",
+      "goal7": "Expand to all LATAM countries. (5 years)"
     },
-    "subtitle8": "Mandatos",
+    "subtitle8": "Mandates",
     "mandatos": {
       "mandato1": {
-        "title": "Desenho Institucional",
-        "descricao": "Desenhar a proposta para as estruturas do DAO.",
-        "entregaveis": "Entregáveis: A proposta para a estrutura online de comunicação e tomada de decisão. A identidade conceitual do DAO. O design dos tokens sociais e o sistema “Listening”."
+        "title": "Institutional Design",
+        "descricao": "Design the proposal for the DAO structures.",
+        "entregaveis": "Deliverables: The proposal for the online structure of communication and decision making. The conceptual identity of the DAO. The design of social tokens and the “Listening” system."
       },
       "mandato2": {
-        "title": "Tecnologia",
-        "descricao": "Construir (ou coordenar) e manter toda a estrutura online do DAO e auxiliar no conteúdo didático.",
-        "entregaveis": "Entregáveis: A criação da carteira multisig, token social, site, forma uma equipe de tutores para auxiliar os alunos que demonstram interesse em aprender a codificar."
+        "title": "Technology",
+        "descricao": "Build (or coordinate) and maintain the entire DAO online structure and assist in the didactic content.",
+        "entregaveis": "Deliverables: The creation of the multisig wallet, social token, website, forms a team of tutors to assist students who show interest in learning to code."
       },
       "mandato3": {
-        "title": "Coordenação Operacional",
-        "descricao": "Forme as equipes. 2. Opere o sistema de escuta. 3. Acompanhe as ações, prazos, recursos e demandas.",
-        "entregaveis": "Entregáveis: Atribua a todos uma lista de tarefas alinhadas com as metas do primeiro ano do DAO e desenvolva um critério para avaliar o cumprimento dessas tarefas."
+        "title": "Operational Coordination",
+        "descricao": "1 Form teams. 2. Operate the listening system. 3. Track actions, deadlines, resources and demands.",
+        "entregaveis": "Deliverables: Assign everyone a to-do list that aligns with the DAO's first year goals and develop criteria for evaluating achievement of those tasks."
       }
     },
-    "subtitle9": "Nossos Primeiros Governadores",
-    "governor1": "Mariana Mota é advogada e funcionária pública do interior da cidade de João Neiva. É especialista em Direito Tributário. Seus principais interesses são a preservação do meio ambiente e a saúde mental dos jovens.",
-    "governor2": "Marcelo Silva é pesquisador brasileiro (PhD) com foco em análise institucional e desenho institucional. Minha pesquisa atual visa construir um modelo de pools de liquidez que financie iniciativas com impacto positivo na sociedade e no meio ambiente.",
-    "governor3": "Lucas Pacheco é Desenvolvedor FullStack (PHP; MYSQL; Laravel; Docker; Firebase; CSS; SCSS; Javascript (Vanila, React JS, React Native) criado (Serra) e residente (Vitoria) no estado do Espírito Santo",
-    "subtitle10": "Nossos Colaboradores",
+    "subtitle9": "Our First Governors",
+    "governor1": "Mariana Mota is a lawyer and civil servant in the interior of the city of João Neiva. She is a specialist in Tax Law. Her main interests are the preservation of the environment and the mental health of young people.",
+    "governor2": "Marcelo Silva is a Brazilian researcher (PhD) focused on institutional analysis and institutional design. My current research aims to build a model of liquidity pools that finance initiatives with a positive impact on society and the environment.",
+    "governor3": "Lucas Pacheco is a FullStack Developer (PHP; MYSQL; Laravel; Docker; Firebase; CSS; SCSS; Javascript (Vanila, React JS, React Native) created (Serra) and resident (Vitoria) in the state of Espírito Santo",
+    "subtitle10": "Our Collaborators",
+
     "colaboradores": {
-      "colaborador1": "Verber Souza , advogado e especialista em DeFi de Minas Gerais, Brasil.",
-      "colaborador2": "Aline Silva, Empreendedora social e atleta de São Paulo, atualmente morando no Rio de Janeiro.",
-      "colaborador3": "Melonie Brown coordena um projeto sobre finanças alfabetização em NY.",
-      "colaborador4": "Fausto Vanin, empreendedor e ativista de blockchain por 5 anos. Cofundador da One Percent.",
-      "colaborador5": "Diego Moraes, jornalista do estado do Rio de Janeiro, trabalha para a Globo, que é o segundo maior canal de televisão do mundo.",
-      "colaborador6": "André Donadia , ensina inglês e filosofia. ",
-      "colaborador7": "William Caldeira , fotojornalismo e design.",
-      "colaborador8": "Diana Aguilar , jornalista da Venezuela."
+      "collaborator1": "Verber Souza, lawyer and DeFi specialist from Minas Gerais, Brazil.",
+      "collaborator2": "Aline Silva, Social entrepreneur and athlete from São Paulo, currently living in Rio de Janeiro.",
+      "collaborator3": "Melonie Brown coordinates a project on finance literacy in NY.",
+      "collaborator4": "Fausto Vanin, entrepreneur and blockchain activist for 5 years. Co-founder of One Percent.",
+      "collaborator5": "Diego Moraes, journalist from the state of Rio de Janeiro, works for Globo, which is the second largest television channel in the world.",
+      "collaborator6": "André Donadia, teaches English and philosophy. ",
+      "collaborator7": "William Caldeira, photojournalism and design.",
+      "collaborator8": "Diana Aguilar, journalist from Venezuela."
     },
-    "subtitle11": "Como os recursos serão aplicados",
-    "part11": "Os recursos financiarão a consolidação de nossa estrutura e a expansão para outras regiões do Brasil e LATAM. \n \nOs recursos serão aplicados da seguinte forma: \n \nNossos governadores poderão dedicar tempo integral para cumprir nossas metas como DAO com um pagamento de US$ 200,00 por semana. \n \nSeremos capazes de construir hackathons para envolver mais alunos nas escolas onde estaremos operando. (O dinheiro vai financiar os prêmios) \n \nPoderemos entregar algumas bolsas para que nossos alunos tenham a chance de viajar e visitar startups e negócios que já operam dentro da web3. \n \nFerramentas de gerenciamento de mídia social. \n \nSoftware de produtividade (G Suite Professional, Canva, Calendly) Hospedagem e domínios na WebConfiguração de votação on-chain e off-chain (Aragon, Snapshot)  \n \nGerenciamento e taxas de blockchain",
-    "subtitle12": "Métricas de sucesso no primeiro ano",
+    "subtitle11": "How resources will be applied",
+    "part11": "The funds will finance the consolidation of our structure and the expansion to other regions of Brazil and LATAM. \n \nThe funds will be applied as follows: \n \nOur governors will be able to dedicate full time to fulfilling our goals as DAO with a payment of US$ 200.00 per week. \n \nWe will be able to build hackathons to involve more students in the schools where we will be operating. (The money will finance the prizes) \n \nWe will be able to deliver some scholarships so that our students have the chance to travel and visit startups and businesses already operating within the web3.\n\nSocial media management tools.\n\nProductivity software (G Suite Professional, Canva, Calendly) Web hosting and domainsOn-line voting setup chain and off-chain (Aragon, Snapshot) \n \nBlockchain management and fees",
+    "subtitle12": "First Year Success Metrics",
+
     "metricas": {
-      "metrica1": "1 site operacional completo",
-      "metrica2": "300 pessoas ativas em nosso discord",
-      "metrica3": "1000 seguidores em nosso Instagram",
-      "metrica4": "1000 seguidores em nosso Twitter",
-      "metrica5": "300 alunos",
-      "metrica6": "3 Parceria institucional",
-      "metrica7": "2 estruturas de sustentabilidade financeira",
-      "metrica8": "2 Cursos introdutórios sobre Blockchain e Web3 em português e espanhol."
+      "metrica1": "1 full operational site",
+      "metrica2": "300 active people on our discord",
+      "metrica3": "1000 followers on our Instagram",
+      "metrica4": "1000 followers on our Twitter",
+      "metric5": "300 students",
+      "metrica6": "3 Institutional Partnership",
+      "metrica7": "2 financial sustainability frameworks",
+      "metrica8": "2 introductory courses on Blockchain and Web3 in Portuguese and Spanish."
     }
   }
 }

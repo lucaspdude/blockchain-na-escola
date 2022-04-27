@@ -52,7 +52,7 @@ const Menu = () => {
         <NavLink title={t('header.menu.equipe')} route="/#home-team" />
         <NavLink title={t('header.menu.$nos')} route="/$nos" />
         <NavLink title={t('header.menu.o-projeto')} route="/projeto" />
-        <NavLink title={t('header.menu.participe')} route="/participe" />
+        <NavLink title={t('header.menu.participe')} route="/#home-participe" />
       </ul>
       <div className=" my-6   md:my-auto">
         <LanguageSwitcher />

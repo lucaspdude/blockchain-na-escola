@@ -24,6 +24,9 @@ a {
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
   body {
     @apply bg-gray-50 text-zinc-900 dark:bg-zinc-800 dark:text-gray-50;
     @apply min-h-screen;

@@ -38,10 +38,17 @@ const LanguageSwitcher: FunctionComponent = () => {
     router.push(router.route, router.route, { locale: language })
   }
 
+  const emojiLang = {
+    pt: '🇧🇷',
+    en: '🇺🇸',
+    es: '🇪🇸',
+  }
+
   return (
     <Menu as="div" className="mx-3">
       <Menu.Button>
-        <div className="   bg-zinc-700 dark:bg-zinc-800  w-56 text-gray-100 rounded-full px-3 py-2 ">
+        <div className="   bg-zinc-700 dark:bg-zinc-800  w-56 text-gray-100 rounded-full px-3 py-2  hover:bg-zinc-700">
+          <span className="mx-3">{emojiLang[currentLang]}</span>
           {displayLang()}
         </div>
       </Menu.Button>
@@ -52,7 +59,7 @@ const LanguageSwitcher: FunctionComponent = () => {
               onClick={() => handleSwithLanguage('pt')}
               className="items-center w-full px-5 py-3 text-white hover:bg-zinc-900 text-left "
             >
-              <span>{t('header.idiomas.portugues')}</span>
+              <span>🇧🇷 {t('header.idiomas.portugues')}</span>
             </button>
           </Menu.Item>
           <Menu.Item>
@@ -60,7 +67,7 @@ const LanguageSwitcher: FunctionComponent = () => {
               onClick={() => handleSwithLanguage('en')}
               className="items-center w-full px-5 py-3 text-white hover:bg-zinc-900 text-left "
             >
-              <span>{t('header.idiomas.ingles')}</span>
+              <span>🇺🇸 {t('header.idiomas.ingles')}</span>
             </button>
           </Menu.Item>
           <Menu.Item>
@@ -68,7 +75,7 @@ const LanguageSwitcher: FunctionComponent = () => {
               onClick={() => handleSwithLanguage('es')}
               className="items-center w-full px-5 py-3 text-white hover:bg-zinc-900 text-left "
             >
-              <span>{t('header.idiomas.espanhol')}</span>
+              <span>🇪🇸 {t('header.idiomas.espanhol')}</span>
             </button>
           </Menu.Item>
         </div>

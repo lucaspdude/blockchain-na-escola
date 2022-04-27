@@ -1,40 +1,40 @@
 {
   "hero": {
     "title": "Blockchain at School",
-    "subtitle": "Integrating Public Education Students in the Blockchain World",
-    "paragrapho": "A decentralized network of teachers and creators bringing blockchain and web3 education to public school classrooms and social projects in Latin America."
+    "subtitle": "Integrating public education students in Blockchain and web3 technology",
+    "paragrapho": "Our goal is to be a decentralized network of teachers and creators bringing blockchain and web3 education to public schools and social projects in Latin America. \n \nOur introductory course trail takes our students on a journey from understanding the most basic aspects of blockchain technology to more complex topics such as consensus algorithms and the hash. \n \nWhether you are a student, teacher or educational manager, we have the trail of courses to get you started on blockchain technology."
   },
   "$nos": {
     "title": "$NOS",
     "subtitle": "The Social Token",
-    "paragrapho": "Our social token the $NOS comes from the Brazilian expression “É noix” which reaffirms the sense of community that binds a huge part of our youth. However, the term is translated into Spanish, being extracted from the expression \"Nosotros\", (nós).",
-    "paragrapho_2": "All we have is us.” Emicida.",
-    "readmore": "Read More"
+    "paragrapho": "Our social token $NOS comes from the expression “É noix” which reaffirms the sense of community that binds a huge part of our youth. But we didn't stop there, we translated the term into Spanish, to also link our Latin American brothers. And that's where the idea of $NOS comes from! \n \nOur token has pedagogical utility, it is used by teachers and students to interact on the web3.",
+    "readmore_cta": "Want to earn $NOS for free?",
+    "readmore": "Click here to learn how"
   },
   "cursos": {
     "title": "Courses",
     "subtitle": "A trail of knowledge",
-    "paragrapho": "We have a trail of courses planned that cover all the necessary knowledge, from creating your first wallet to understanding how the Blockchain works.",
+    "paragrapho": "Our introductory course trail gives you the basics of blockchain technology in courses that can be completed in under 5 minutes. You know that bus or Uber trip to get to the ride? So, in it you can complete our courses and, of course, receive an NFT from Open Sea at the end of each course. \n \nLittle secret: If you join the 10 NFTs you can start participating in our exclusive prize draws.",
     "readmore": "Get to know the Courses"
   },
   "equipe": {
     "title": "Team",
-    "subtitle": "have a fantastic and well-connected team that constantly prepares and organizes the best content for our students and teachers.",
+    "subtitle": "Nossa equipe é composta de uma coordenação de três pessoas e um time de contribuidores que revezam nos ajudando em temas específicos.",
     "paragrapho": "Our team ",
     "card_1": {
       "name": "Marcelo Silva",
-      "title": "Researcher",
-      "descricao": "Marcelo is a Brazilian researcher (PhD), focused on analysis and institutional design"
+      "title": "Coordenador",
+      "descricao": "Marcelo Silva, is a researcher (PhD from UFRJ) focused on analysis and institutional design, social entrepreneur and writer for the Blockchain and DeFi area. He is the creator of the project and is the one who makes our institutional design and produces our educational content."
     },
     "card_2": {
       "name": "Mariana Motta",
-      "title": "Governadora",
-      "descricao": "Mariana is a civil lawyer and civil servant in the city of João Neiva. She is a specialist in tax law."
+      "title": "Coordenador",
+      "descricao": "Mariana Mota is our lawyer, post-graduated in Tax Law, she also has experience in the labor area. She is the one who takes care of the proofreading and also the one who asks tough questions about web3, Blockchain and DAOs in Brazil."
     },
     "card_3": {
       "name": "Lucas Pacheco",
-      "title": "Developer",
-      "descricao": "Lucas is a Full Stack developer, resident of the city of Vitória"
+      "title": "Coordenador",
+      "descricao": "Lucas Pacheco is a self made Full Stack Developer with extensive experience in Project Management and Financial Technology. He is responsible for our entire tech area, from this site you are currently browsing to our secret web3 projects that you will still hear about in the future."
     }
   },
   "contato": {

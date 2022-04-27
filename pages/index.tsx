@@ -15,6 +15,7 @@ import PictureMarcelo from '../assets/images/pessoas/marcelo.jpeg'
 import { useEffect } from 'react'
 import Meta from '../layouts/meta'
 import Image from 'next/image'
+import Partner from '../components/Partner'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
@@ -52,16 +53,18 @@ const Home: NextPage = () => {
           {/* <h3 className=" my-3 text-5xl text-white bg-purple-500 inline-block px-6 py-3 font-bold hover:shadow-lg">
             {t('hero.title')}
           </h3> */}
-          <Image src={Logo} alt="logo" className="" height={189} width={537} />
+          {/* <Image src={Logo} alt="logo" className="" height={189} width={537} /> */}
           <br />
           <h4 className=" my-3 text-4xl text-purple-500 bg-white inline-block  px-3 py-3">
             {t('hero.subtitle')}
           </h4>
-          <p className=" my-3 text-2xl text-white">{t('hero.paragrapho')}</p>
+          <p className=" whitespace-pre-wrap my-3 text-2xl text-white">
+            {t('hero.paragrapho')}
+          </p>
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-zinc-800 py-12 " id="home-team">
+      <div className="bg-gray-50 dark:bg-zinc-800 py-12 ">
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
           <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
             {t('$nos.title')}
@@ -69,15 +72,20 @@ const Home: NextPage = () => {
           <h4 className=" my-3 text-4xl text-zinc-700 font-kreon dark:text-white ">
             {t('$nos.subtitle')}
           </h4>
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white ">
+
+          <p className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white ">
             {t('$nos.paragrapho')}
+          </p>
+
+          <p className=" whitespace-pre-wrap mt-6 text-3xl text-zinc-700 dark:text-white ">
+            {t('$nos.readmore_cta')}
           </p>
           <Button onClick={() => handleRedirect('/$nos')} variant="success">
             {t('$nos.readmore')}
           </Button>
         </div>
       </div>
-      <div className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern ">
+      <div className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern  ">
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
           <h3 className=" my-3 text-5xl text-zinc-700 dark:text-white font-bold ">
             {t('cursos.title')}
@@ -85,7 +93,7 @@ const Home: NextPage = () => {
           <h4 className=" my-3 text-4xl text-zinc-700 font-kreon dark:text-white ">
             {t('cursos.subtitle')}
           </h4>
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white">
+          <p className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white">
             {t('cursos.paragrapho')}
           </p>
           <Button onClick={() => handleRedirect('/cursos')} variant="default">
@@ -94,12 +102,12 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-zinc-800 py-12 ">
+      <div className="bg-gray-50 dark:bg-zinc-800 py-12 " id="home-team">
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
           <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
             {t('equipe.title')}
           </h3>
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white">
+          <p className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white">
             {t('equipe.subtitle')}
           </p>
         </div>
@@ -131,7 +139,10 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern ">
+      <div
+        className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern "
+        id="home-participe"
+      >
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
           <h3 className=" my-3 text-5xl text-zinc-700 dark:text-white font-bold ">
             {t('contato.title')}
@@ -158,21 +169,21 @@ const Home: NextPage = () => {
             </h3>
             <div className="md:grid md:grid-cols-3 md:gap-3">
               <div className="col-span-1">
-                <h4 className=" my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
                   Linkedin
                 </h4>
-                <h4 className=" my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
                   Facebook
                 </h4>
-                <h4 className=" my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
                   Twitter
                 </h4>
               </div>
               <div className="col-span-1">
-                <h4 className=" my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
                   Instagram
                 </h4>
-                <h4 className=" my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
                   Reddit
                 </h4>
               </div>
@@ -187,10 +198,40 @@ const Home: NextPage = () => {
             {t('parcerias.title')}
           </h3>
 
-          <p className=" my-3 text-2xl text-zinc-700 dark:text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            architecto veritatis consequatur veniam eius officia?
-          </p>
+          <div className="grid grid-cols-4 gap-4">
+            <Partner url="https://twitter.com/blu3dao" name="Blu3DAO" />
+            <Partner url="https://www.moneyboss.co/" name="MoneyBoss" alt />
+            <Partner
+              url="https://blackleadersdao.webflow.io/"
+              name="BlackLeadersDAO"
+            />
+            <Partner
+              url="https://www.mempodera.com/?lang=en"
+              name="MeEmpodera"
+              alt
+            />
+            <Partner url="https://metoobrasil.org.br/" name="MeTooDAO" />
+            <Partner
+              url="https://refispring.closer.earth/"
+              name="ReFi Spring"
+              alt
+            />
+            <Partner
+              url="https://talk.harmony.one/t/blockchain-in-the-classroomdao/14983/10"
+              name="Harmony Protocol"
+            />
+            <Partner
+              url="https://www.instagram.com/bpc_dao/"
+              name="Blockchain Press Club"
+              alt
+            />
+            <Partner url="https://www.play4change.io/pt" name="Play4Change" />
+            <Partner
+              url="https://www.instagram.com/docum3ant/"
+              name="Docum3ant"
+              alt
+            />
+          </div>
         </div>
       </div>
     </>

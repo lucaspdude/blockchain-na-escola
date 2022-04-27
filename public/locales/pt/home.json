@@ -1,39 +1,40 @@
 {
   "hero": {
     "title": "Blockchain na Escola",
-    "subtitle": "Integrando alunos do ensino público no mundo da Blockchain",
-    "paragrapho": "Uma rede descentralizada de professores e criadores levando educação sobre blockchain e web3 para as salas de aula das escolas públicas e projetos sociais na América Latina."
+    "subtitle": "Integrando alunos do ensino público na tecnologia Blockchain e web3",
+    "paragrapho": "Nosso objetivo é ser uma rede descentralizada de professores e criadores levando educação sobre blockchain e web3 para as escolas públicas e projetos sociais na América Latina. \n \nNossa trilha de cursos introdutórios leva nossos alunos em uma jornada da compreensão dos mais básicos aspectos da tecnologia blockchain até temas mais complexos como algoritmos de consenso e o hash. \n \nSeja você um estudante, um professor ou gestor educacional, nós temos a trilha de cursos para de embarcar na tecnologia blockchain."
   },
   "$nos": {
     "title": "$NOS",
     "subtitle": "O Token Social",
-    "paragrapho": "O nosso token social o $NOS vem da expressão brasileira “É nóix” que reafirma o senso de comunidade que vincula uma parcela enorme da nossa juventude. No entanto, o termo é traduzido pra o espanhol, sendo extraído da expressão “Nosotros”, (nós).",
-    "readmore": "Leia Mais"
+    "paragrapho": "O nosso token social o $NOS surge da expressão “É nóix” que reafirma o senso de comunidade que vincula uma parcela enorme da nossa juventude. Mas não paramos por aí, traduzimos o termo para o espanhol, para também ligar nossos hermanos da América Latina. E daí surge a ideia do $NOS! \n \nO nosso token tem utilidade pedagógica, ele é utilizado por professores e alunos para interagir na web3.",
+    "readmore_cta": "Quer ganhar $NOS gratuitamente?",
+    "readmore": "Clique aqui e saiba como"
   },
   "cursos": {
     "title": "Cursos",
     "subtitle": "Uma trilha de conhecimento",
-    "paragrapho": "Temos uma trilha de cursos planejados que cobrem todos os conhecimentos necessários, desde a criação da sua primeira carteira até entender o funcionamento da Blockchain ",
+    "paragrapho": "Nossa trilha de cursos introdutórios te oferece o básico sobre a tecnologia blockchain em cursos que podem ser realizados em menos de 5 minutos. Sabe aquela viagem de ônibus ou de Uber pra chegar no rolê? Então, nela você pode concluir nossos cursos e de quebra receber um NFT lá da Open Sea no final de cada curso. \n \nSegredinho: Se você juntar os 10 NFTs pode começar a participar dos nossos sorteios de prêmios exclusivos.",
     "readmore": "Conheça os Cursos"
   },
   "equipe": {
     "title": "Equipe",
-    "subtitle": "Temos uma equipe fantástica e bem entrosada, que constantemente prepara e organiza o melhor conteúdo para os nossos alunos e professores",
-    "paragrapho": "Nossa equipe ",
+    "subtitle": "Nossa equipe é composta de uma coordenação de três pessoas e um time de contribuidores que revezam nos ajudando em temas específicos.",
+    "paragrapho": "Coordenação",
     "card_1": {
       "name": "Marcelo Silva",
-      "title": "Pesquisador",
-      "descricao": "Marcelo é um pesquisador (PhD) Brasileiro, com foco em análise e design institucional"
+      "title": "Coordenador",
+      "descricao": "Marcelo Silva, é pesquisador (PhD pela UFRJ) com foco em análise e desenho institucional, empreendedor social e escritor para a área de Blockchain e DeFi. É o idealizador do projeto e é quem faz o nosso desenho institucional e produz nosso conteúdo educacional."
     },
     "card_2": {
       "name": "Mariana Motta",
-      "title": "Governadora",
-      "descricao": "Mariana é advogada cível e funcionária pública na cidade de João Neiva. Ela é especialista em leis de impostos.  "
+      "title": "Coordenador",
+      "descricao": "Mariana Mota é nossa advogada, pós graduada em Direito Tributário, ela também tem experiência na área trabalhista. É quem cuida da revisão textual e também quem faz perguntas difíceis sobre a web3, Blockchain e DAOs no Brasil."
     },
     "card_3": {
       "name": "Lucas Pacheco",
-      "title": "Desenvolvedor",
-      "descricao": "Lucas é desenvolvedor Full Stack, morador da cidade de Vitória"
+      "title": "Coordenador",
+      "descricao": "Lucas Pacheco é um self made Desenvolvedor Full Stack com ampla experiência na Gerência de Projetos e Tecnologia Financeira. É responsável por toda nossa área tech, desde este site em que você está navegando agora até nossos projetos web3 secretos que você ainda vai ouvir falar no futuro."
     }
   },
   "contato": {
