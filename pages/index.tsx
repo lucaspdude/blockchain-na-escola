@@ -6,12 +6,15 @@ import Button from '../components/Button'
 import ContactForm from '../components/ContactForm'
 import Section from '../components/section'
 import TeamCard from '../components/TeamCard'
+import Logo from '../assets/images/logo.svg'
+import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
 import PictureLucas from '../assets/images/pessoas/lucas.jpeg'
 import PictureMariana from '../assets/images/pessoas/mariana.jpeg'
 import PictureMarcelo from '../assets/images/pessoas/marcelo.jpeg'
 import { useEffect } from 'react'
 import Meta from '../layouts/meta'
+import Image from 'next/image'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
@@ -33,10 +36,6 @@ const Home: NextPage = () => {
     router.push(route)
   }
 
-  useEffect(() => {
-    console.log('here')
-  }, [])
-
   return (
     <>
       <Meta
@@ -50,9 +49,11 @@ const Home: NextPage = () => {
       />
       <div className="bg-hero bg-fixed  bg-no-repeat bg-cover bg-center">
         <div className="container mx-auto  justify-center px-6 py-12  w-full ">
-          <h3 className=" my-3 text-5xl text-white bg-purple-500 inline-block px-6 py-3 font-bold hover:shadow-lg">
+          {/* <h3 className=" my-3 text-5xl text-white bg-purple-500 inline-block px-6 py-3 font-bold hover:shadow-lg">
             {t('hero.title')}
-          </h3>
+          </h3> */}
+          <Image src={Logo} alt="logo" className="" height={189} width={537} />
+          <br />
           <h4 className=" my-3 text-4xl text-purple-500 bg-white inline-block  px-3 py-3">
             {t('hero.subtitle')}
           </h4>
@@ -139,8 +140,16 @@ const Home: NextPage = () => {
             {t('contato.subtitle')}.
           </h4>
 
-          <div className="md:grid md:grid-cols-2 md:gap-3">
+          <div className="md:grid md:grid-cols-2 md:gap-6">
             <ContactForm />
+
+            <div className="px-3 my-6">
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="BlckNaEscola"
+                options={{ height: 400 }}
+              />
+            </div>
           </div>
 
           <div className="my-3 py-6">

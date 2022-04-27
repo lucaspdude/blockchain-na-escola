@@ -8,7 +8,6 @@
     "title": "$NOS",
     "subtitle": "O Token Social",
     "paragrapho": "O nosso token social o $NOS vem da expressão brasileira “É nóix” que reafirma o senso de comunidade que vincula uma parcela enorme da nossa juventude. No entanto, o termo é traduzido pra o espanhol, sendo extraído da expressão “Nosotros”, (nós).",
-    "paragrapho_2": "“Tudo o que nóis tem, é nóis.” Emicida.",
     "readmore": "Leia Mais"
   },
   "cursos": {
@@ -40,7 +39,6 @@
   "contato": {
     "title": "Contatos",
     "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais",
-    "paragrapho": "lorem ipsun",
     "formulario": {
       "nome": "Nome",
       "placeholder_nome": "Informe o nome",
@@ -52,11 +50,9 @@
     }
   },
   "redes": {
-    "title": "Redes Sociais",
-    "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais"
+    "title": "Redes Sociais"
   },
   "parcerias": {
-    "title": "Parcerias",
-    "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais"
+    "title": "Parcerias"
   }
 }

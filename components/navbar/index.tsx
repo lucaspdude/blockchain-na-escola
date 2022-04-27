@@ -85,8 +85,8 @@ const Navbar: FunctionComponent = () => {
                 src={Logo}
                 alt="logo"
                 className=""
-                height={50}
-                width={72}
+                height={63}
+                width={179}
               />
             </a>
           </Link>
