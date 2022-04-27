@@ -17,7 +17,7 @@ const Partner: FunctionComponent<PartnerProps> = ({ url, name, alt }) => {
       hover:text-4xl
       `}
     >
-      <a href={url} target="_blank">
+      <a href={url} target="_blank" rel="noreferrer">
         {name}
       </a>
     </div>
