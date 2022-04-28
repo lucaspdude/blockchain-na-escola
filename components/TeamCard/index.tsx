@@ -20,7 +20,7 @@ const TeamCard: FunctionComponent<TeamCardProps> = ({
 
   return (
     <div
-      className="cursos-pointer h-96 bg-gray-50 mx-3 my-3 py-6 px-6 text-zinc-800 dark:bg-zinc-800 dark:text-white team-card-container  shadow-md hover:shadow-2xl dark:hover:bg-purple-500 hover:bg-yellow-300 transition-all ease-in-out duration-200 "
+      className="cursos-pointer min-h-96 bg-gray-50 mx-3 my-3 py-6 px-6 text-zinc-800 dark:bg-zinc-800 dark:text-white team-card-container  shadow-md hover:shadow-2xl dark:hover:bg-purple-500 hover:bg-yellow-300 transition-all ease-in-out duration-200 "
       onClick={() => setIsActive(!isActive)}
     >
       <div className="flex justify-end">

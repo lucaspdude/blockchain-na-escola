@@ -4,17 +4,13 @@ import { useRouter } from 'next/router'
 import { useTranslation } from 'react-i18next'
 import Button from '../components/Button'
 import ContactForm from '../components/ContactForm'
-import Section from '../components/section'
 import TeamCard from '../components/TeamCard'
-import Logo from '../assets/images/logo.svg'
 import { TwitterTimelineEmbed } from 'react-twitter-embed'
 
 import PictureLucas from '../assets/images/pessoas/lucas.jpeg'
 import PictureMariana from '../assets/images/pessoas/mariana.jpeg'
 import PictureMarcelo from '../assets/images/pessoas/marcelo.jpeg'
-import { useEffect } from 'react'
 import Meta from '../layouts/meta'
-import Image from 'next/image'
 import Partner from '../components/Partner'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
@@ -48,23 +44,25 @@ const Home: NextPage = () => {
         ogUrl=""
         ogImage=""
       />
-      <div className="bg-hero bg-fixed  bg-no-repeat bg-cover bg-center">
-        <div className="container mx-auto  justify-center px-6 py-12  w-full ">
-          {/* <h3 className=" my-3 text-5xl text-white bg-purple-500 inline-block px-6 py-3 font-bold hover:shadow-lg">
+      <div className="bg-hero2 bg-fixed  bg-no-repeat bg-cover bg-center ">
+        <div className=" min-h-screen flex items-center hover:backdrop-blur-md transition-all ease-in-out duration-200 ">
+          <div className="container mx-auto  justify-center px-6 py-12  w-full   ">
+            {/* <h3 className=" my-3 text-5xl text-white bg-purple-500 inline-block px-6 py-3 font-bold hover:shadow-lg">
             {t('hero.title')}
           </h3> */}
-          {/* <Image src={Logo} alt="logo" className="" height={189} width={537} /> */}
-          <br />
-          <h4 className=" my-3 text-4xl text-purple-500 bg-white inline-block  px-3 py-3">
-            {t('hero.subtitle')}
-          </h4>
-          <p className=" whitespace-pre-wrap my-3 text-2xl text-white">
-            {t('hero.paragrapho')}
-          </p>
+            {/* <Image src={Logo} alt="logo" className="" height={189} width={537} /> */}
+            <br />
+            <h4 className=" my-3 text-4xl font-bold  text-purple-500 bg-white/50 hover:backdrop-bur-sm  inline-block  px-3 py-3">
+              {t('hero.subtitle')}
+            </h4>
+            <p className=" whitespace-pre-wrap my-3 text-2xl bg-white/50 backdrop-blur-sm px-6 py-6 dark:text-zinc-800">
+              {t('hero.paragrapho')}
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-zinc-800 py-12 ">
+      <div className="bg-gray-50 dark:bg-zinc-800 py-12 min-h-screen flex ">
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
           <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
             {t('$nos.title')}
@@ -85,7 +83,7 @@ const Home: NextPage = () => {
           </Button>
         </div>
       </div>
-      <div className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern  ">
+      <div className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern min-h-screen flex  ">
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
           <h3 className=" my-3 text-5xl text-zinc-700 dark:text-white font-bold ">
             {t('cursos.title')}
@@ -102,45 +100,47 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-zinc-800 py-12 " id="home-team">
-        <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
-          <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
-            {t('equipe.title')}
-          </h3>
-          <p className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white">
-            {t('equipe.subtitle')}
-          </p>
+      <div className="min-h-screen flex flex-col">
+        <div className="bg-gray-50 dark:bg-zinc-800 py-12  " id="home-team">
+          <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
+            <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
+              {t('equipe.title')}
+            </h3>
+            <p className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white">
+              {t('equipe.subtitle')}
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="bg-gray-200 dark:bg-zinc-900 py-12 ">
-        <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
-          <div className="grid md:grid-cols-3 gap-6">
-            <TeamCard
-              name={t('equipe.card_1.name')}
-              label={t('equipe.card_1.title')}
-              picture={PictureMarcelo}
-              description={t('equipe.card_1.descricao')}
-            />
+        <div className="bg-gray-200 dark:bg-zinc-900 py-12 ">
+          <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
+            <div className="grid md:grid-cols-3 gap-6">
+              <TeamCard
+                name={t('equipe.card_1.name')}
+                label={t('equipe.card_1.title')}
+                picture={PictureMarcelo}
+                description={t('equipe.card_1.descricao')}
+              />
 
-            <TeamCard
-              name={t('equipe.card_2.name')}
-              label={t('equipe.card_2.title')}
-              picture={PictureMariana}
-              description={t('equipe.card_2.descricao')}
-            />
+              <TeamCard
+                name={t('equipe.card_2.name')}
+                label={t('equipe.card_2.title')}
+                picture={PictureMariana}
+                description={t('equipe.card_2.descricao')}
+              />
 
-            <TeamCard
-              name={t('equipe.card_3.name')}
-              label={t('equipe.card_3.title')}
-              picture={PictureLucas}
-              description={t('equipe.card_3.descricao')}
-            />
+              <TeamCard
+                name={t('equipe.card_3.name')}
+                label={t('equipe.card_3.title')}
+                picture={PictureLucas}
+                description={t('equipe.card_3.descricao')}
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div
-        className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern "
+        className="bg-green-500 dark:bg-purple-500 py-12 bg-pattern min-h-screen flex "
         id="home-participe"
       >
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
@@ -192,13 +192,13 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-zinc-800 py-12 ">
+      <div className="bg-gray-50 dark:bg-zinc-800 py-12 min-h-screen flex">
         <div className="container mx-auto  justify-center w-full px-6 py-12 my-auto ">
-          <h3 className=" my-3 text-5xl text-purple-500 dark:text-white font-bold ">
+          <h3 className=" my-3 text-5xl text-purple-500 my-6 dark:text-white font-bold ">
             {t('parcerias.title')}
           </h3>
 
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid md:grid-cols-3 gap-4">
             <Partner url="https://twitter.com/blu3dao" name="Blu3DAO" />
             <Partner url="https://www.moneyboss.co/" name="MoneyBoss" alt />
             <Partner
