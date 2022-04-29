@@ -27,7 +27,7 @@ const LanguageSwitcher: FunctionComponent = () => {
 
     if (localStorageHasLanguage) {
       const parsedLanguage = JSON.parse(localStorageHasLanguage)
-      setCurrentLang(parsedLanguage)
+      handleSwithLanguage(parsedLanguage)
     }
   }, [])
 

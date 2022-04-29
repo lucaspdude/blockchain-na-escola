@@ -30,10 +30,10 @@ const MainLayout: FunctionComponent<MainLayoutProps> = ({ children }) => {
           `,
         }}
       />
-      <div className="flex flex-col">
+      <div className="flex flex-col ">
         <Navbar />
         <main className=" h-full bg-gray-50 dark:bg-zinc-800 ">
-          <div className="    ">{children}</div>
+          <div className="   ">{children}</div>
         </main>
         {/* <footer className=" fixed bottom-0 py-3 px-6 text-white bg-purple-500">
           Desenvolvido por lpacheco.tech

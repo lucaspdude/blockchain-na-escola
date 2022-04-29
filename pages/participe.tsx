@@ -1,10 +1,13 @@
+import axios from 'axios'
 import type { GetStaticProps, NextPage } from 'next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Heading from '../components/Heading'
 import Section from '../components/section'
 import Typography from '../components/Typography'
 import Meta from '../layouts/meta'
+import apiService from '../services/api.service'
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
     props: {
@@ -16,6 +19,17 @@ export const getStaticProps: GetStaticProps = async (props) => {
 
 const Participe: NextPage = () => {
   const { t } = useTranslation('common')
+
+  useEffect(() => {
+    apiService
+      .get('cms-client')
+      .then((response) => {
+        console.log(response)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+  }, [])
 
   return (
     <div className="container mx-auto  justify-center w-full px-6">
