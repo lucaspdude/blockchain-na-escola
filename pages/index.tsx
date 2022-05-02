@@ -54,8 +54,8 @@ const Home: NextPage = () => {
             <div className="container mx-auto  flex flex-col justify-center px-6 py-12  w-full     ">
               <Image
                 src={Logo}
-                width={450}
-                height={126}
+                width={700}
+                height={192}
                 className="align-start h-96 max-h-96"
               />
 
