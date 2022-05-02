@@ -1,7 +1,7 @@
 {
-  "name": "blockchain-na-sala-de-aula",
-  "version": "0.1.0",
-  "private": true,
+  "name": "blockchain-na-escola",
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
