@@ -180,24 +180,26 @@ const Home: NextPage = () => {
               </h3>
               <div className="md:grid md:grid-cols-3 md:gap-3">
                 <div className="col-span-1">
-                  <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
-                    Linkedin
-                  </h4>
-                  <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
-                    Facebook
-                  </h4>
-                  <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
-                    Twitter
-                  </h4>
+                  <a
+                    href="https://twitter.com/BlckNaEscola"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                      Twitter
+                    </h4>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/blockchainnaescola/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
+                      Instagram
+                    </h4>
+                  </a>
                 </div>
-                <div className="col-span-1">
-                  <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
-                    Instagram
-                  </h4>
-                  <h4 className=" whitespace-pre-wrap my-3 text-2xl text-zinc-700 dark:text-white font-bold">
-                    Reddit
-                  </h4>
-                </div>
+                <div className="col-span-1"></div>
               </div>
             </div>
           </div>
