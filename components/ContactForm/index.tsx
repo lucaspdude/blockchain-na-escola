@@ -91,7 +91,7 @@ const ContactForm = () => {
             <TextArea
               name="message"
               label={t('contato.formulario.mensagem')}
-              placeholder={t('contato.formulario.mensagem')}
+              placeholder={t('contato.formulario.placeholder_mensagem')}
             />
 
             <div className="flex justify-end">
@@ -99,8 +99,8 @@ const ContactForm = () => {
                 variant="default"
                 onClick={() => formRef.current?.submitForm()}
                 isLoading={isLoading}
-              >
-                Enviar
+                label={t('contato.formulario.enviar')}
+              >  
               </Button>
             </div>
           </>

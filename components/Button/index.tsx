@@ -5,6 +5,7 @@ interface ButtonProps {
   variant: 'success' | 'info' | 'danger' | 'default'
   onClick: () => void
   isLoading?: boolean
+  label: string
 }
 
 const Button: FunctionComponent<ButtonProps> = ({
@@ -12,6 +13,7 @@ const Button: FunctionComponent<ButtonProps> = ({
   variant,
   onClick,
   isLoading,
+  label,
 }) => {
   const [styles, setStyles] = useState<string>(
     'py-3 px-10 bg-purple-500 font-bold text-2xl shadow-lg my-6 rounded-md hover:bg-purple-600 transition-all ease-in-out duration-200'
@@ -42,13 +44,24 @@ const Button: FunctionComponent<ButtonProps> = ({
   }, [variant])
 
   return (
-    <button onClick={onClick} className={styles} disabled={isLoading}>
-      {isLoading ? (
-        <AiOutlineLoading3Quarters className="loading-spinner" />
-      ) : (
-        children
+    <><div>
+      <button onClick={onClick} className={styles} disabled={isLoading}>
+          {isLoading ? (
+            <AiOutlineLoading3Quarters className="loading-spinner" />
+          ) : (
+            children
+          )}
+        
+      {label && (
+        <label
+          htmlFor={label}
+          className="text-xl text-white font-bold dark:text-white uppercase"
+        >
+          {label}
+        </label>
       )}
-    </button>
+      </button>
+    </div></>
   )
 }
 

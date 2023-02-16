@@ -8,6 +8,7 @@ import Typography from '../components/Typography'
 import SimboloNos from '../assets/images/paginas/simbolo-nos.png'
 import { FunctionComponent, ReactNode } from 'react'
 import Meta from '../layouts/meta'
+import Link from 'next/link'
 
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
@@ -46,7 +47,7 @@ const Nos: NextPage = () => {
         ogUrl=""
         ogImage=""
       />
-      <div className="container mx-auto  justify-center w-full px-6 whitespace-pre-wrap">
+      <div className="container mx-auto text-justify w-full px-6 whitespace-pre-wrap">
         <Heading variant="h2">{t('$nos.title')}</Heading>
 
         <div className="flex items-center block">
@@ -65,26 +66,40 @@ const Nos: NextPage = () => {
           {t('$nos.subtitle2')}
         </Typography>
         <Typography>{t('$nos.content6')}</Typography>
+        <Typography>{t('$nos.content7')}</Typography>
 
         <Typography className="font-bold text-purple-500 text-3xl">
           {t('$nos.subtitle3')}
         </Typography>
-        <Typography>{t('$nos.content7')}</Typography>
-        <Typography>{t('$nos.content8')}</Typography>
+        <Typography>{t('$nos.content8')}
+          <span class="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
+            <Link href={t('$nos.link1')}>{t('$nos.textolink1')}</Link>
+          </span>
+        </Typography>
         <Typography>{t('$nos.content9')}</Typography>
+        <Typography>{t('$nos.content10')}</Typography>
+
         <Typography className="font-bold text-purple-500 text-3xl">
           {t('$nos.subtitle4')}
         </Typography>
-        <Typography>{t('$nos.content10')}</Typography>
+        <Typography>{t('$nos.content11')}</Typography>
+        <Typography>{t('$nos.content12')}</Typography>
 
         <Typography className="font-bold text-purple-500 text-3xl">
           {t('$nos.subtitle5')}
         </Typography>
-        <Typography>{t('$nos.content11')}</Typography>
-        <Typography>{t('$nos.content12')}</Typography>
         <Typography>{t('$nos.content13')}</Typography>
         <Typography>{t('$nos.content14')}</Typography>
         <Typography>{t('$nos.content15')}</Typography>
+        <Typography>{t('$nos.content16')}</Typography>
+        <Typography>{t('$nos.content17')}</Typography>
+        <Typography>
+          {t('$nos.content18')}&nbsp;
+          <span class="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
+            <Link href={t('$nos.link2')}>{t('$nos.textolink2')}</Link>
+          </span>
+        </Typography>
+        <Typography>{t('$nos.content19')}</Typography>
       </div>
     </>
   )

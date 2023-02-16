@@ -6,11 +6,12 @@ import Heading from '../components/Heading'
 import Section from '../components/section'
 import Typography from '../components/Typography'
 
-import PictureLucas from '../assets/images/pessoas/lucas.jpeg'
-import PictureMariana from '../assets/images/pessoas/mariana.jpeg'
+import PictureAriel from '../assets/images/pessoas/ariel.jpg'
+import PictureGregory from '../assets/images/pessoas/gregory.jpeg'
 import PictureMarcelo from '../assets/images/pessoas/marcelo.jpeg'
 import { FunctionComponent, ReactNode } from 'react'
 import Meta from '../layouts/meta'
+import Link from 'next/link'
 
 export const getStaticProps: GetStaticProps = async (props) => {
   return {
@@ -51,6 +52,15 @@ const Cursos: NextPage = () => {
       />
       <div className="container mx-auto  justify-center w-full px-6 whitespace-pre-wrap">
         <Heading variant="h2">{t('cursos.title')}</Heading>
+
+        <p class= "pb-0 items-baseline text-2xl py-3 my-3 text-zinc-900 dark:text-gray-50">
+          {t('cursos.content1')} 
+          <span class="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
+            <Link href={t('cursos.link1')}>
+              {t('cursos.content2')}  
+            </Link>
+          </span>
+        </p>
 
         <ul className="divide-y text-2xl  text-zinc-900 dark:text-gray-50  mx-6 ">
           <ListItem>{t('cursos.curso1')}</ListItem>
