@@ -53,9 +53,9 @@ const Cursos: NextPage = () => {
       <div className="container mx-auto  justify-center w-full px-6 whitespace-pre-wrap">
         <Heading variant="h2">{t('cursos.title')}</Heading>
 
-        <p class= "pb-0 items-baseline text-2xl py-3 my-3 text-zinc-900 dark:text-gray-50">
+        <p className= "pb-0 items-baseline text-2xl py-3 my-3 text-zinc-900 dark:text-gray-50">
           {t('cursos.content1')} 
-          <span class="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
+          <span className="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
             <Link href={t('cursos.link1')}>
               {t('cursos.content2')}  
             </Link>

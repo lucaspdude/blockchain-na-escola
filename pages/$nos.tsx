@@ -72,7 +72,7 @@ const Nos: NextPage = () => {
           {t('$nos.subtitle3')}
         </Typography>
         <Typography>{t('$nos.content8')}
-          <span class="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
+          <span className="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
             <Link href={t('$nos.link1')}>{t('$nos.textolink1')}</Link>
           </span>
         </Typography>
@@ -95,7 +95,7 @@ const Nos: NextPage = () => {
         <Typography>{t('$nos.content17')}</Typography>
         <Typography>
           {t('$nos.content18')}&nbsp;
-          <span class="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
+          <span className="inline text-2xl py-3 my-3 text-blue-500 dark:text-gray-50 underline visited:purple-500">
             <Link href={t('$nos.link2')}>{t('$nos.textolink2')}</Link>
           </span>
         </Typography>
