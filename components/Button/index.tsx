@@ -5,7 +5,7 @@ interface ButtonProps {
   variant: 'success' | 'info' | 'danger' | 'default'
   onClick: () => void
   isLoading?: boolean
-  label: string
+  label?: string
 }
 
 const Button: FunctionComponent<ButtonProps> = ({
