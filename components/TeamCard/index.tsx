@@ -46,8 +46,8 @@ const TeamCard: FunctionComponent<TeamCardProps> = ({
             width={150}
             className="rounded-full z-0 "
           />
-          <h4 className="font-kreon text-2xl font-light my-6">{name}</h4>
-          <div className="team-card-function text-2xl bg-zinc-800 dark:bg-zinc-700 w-full mx-3  py-3 text-white flex items-center justify-center my-6">
+          <h4 className="font-kreon text-3xl font-light my-6">{name}</h4>
+          <div className="team-card-function no-wrap text-xl bg-zinc-800 dark:bg-zinc-700 w-full mx-3 py-3 text-white flex items-center justify-center my-6">
             {label}
           </div>
         </div>

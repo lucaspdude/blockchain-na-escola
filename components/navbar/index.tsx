@@ -76,7 +76,7 @@ const Navbar: FunctionComponent = () => {
   }, [router])
 
   return (
-    <nav className="bg-green-500 dark:bg-zinc-900  sticky  top-0 w-full z-10 shadow-lg flex items-center justify-center">
+    <nav className="bg-green-500 dark:bg-slate-900  sticky  top-0 w-full z-10 shadow-lg flex items-center justify-center">
       <div className="container flex flex-wrap items-center justify-center   ">
         <div className="flex items-center justify-between w-full md:flex-1 px-6 ">
           <Link href="/">

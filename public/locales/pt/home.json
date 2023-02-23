@@ -1,52 +1,63 @@
 {
   "hero": {
     "title": "Blockchain na Escola",
-    "subtitle": "Integrando alunos do ensino público na tecnologia Blockchain e web3",
+    "subtitle": "Empoderando alunos do ensino público com a tecnologia blockchain e web3",
     "paragrapho": "Nosso objetivo é ser uma rede descentralizada de professores e criadores levando educação sobre blockchain e web3 para as escolas públicas e projetos sociais na América Latina. \n \nNossa trilha de cursos introdutórios leva nossos alunos em uma jornada da compreensão dos mais básicos aspectos da tecnologia blockchain até temas mais complexos como algoritmos de consenso e o hash. \n \nSeja você um estudante, um professor ou gestor educacional, nós temos a trilha de cursos para de embarcar na tecnologia blockchain."
   },
   "$nos": {
     "title": "$NOS",
     "subtitle": "O Token Social",
-    "paragrapho": "O nosso token social o $NOS surge da expressão “É nóix” que reafirma o senso de comunidade que vincula uma parcela enorme da nossa juventude. Mas não paramos por aí, traduzimos o termo para o espanhol, para também ligar nossos hermanos da América Latina. E daí surge a ideia do $NOS! \n \nO nosso token tem utilidade pedagógica, ele é utilizado por professores e alunos para interagir na web3.",
+    "paragrapho": "O nome de nosso token social - $NOS - surge da expressão “É nóix” que reafirma o senso de comunidade que vincula uma parcela enorme da nossa juventude. O termo também pode ser facilmente traduzido para o espanhol, “nosotros,” para nos conectar com nossos hermanos da América Latina. \n \n$NOS tem utilidade pedagógica, incentivando alunos a aprenderem e atuando como uma ferramenta para professores criarem dinâmicas de interação com a web3 na sala de aula.",
     "readmore_cta": "Quer ganhar $NOS gratuitamente?",
     "readmore": "Clique aqui e saiba como"
   },
   "cursos": {
     "title": "Cursos",
-    "subtitle": "Uma trilha de conhecimento",
-    "paragrapho": "Nossa trilha de cursos introdutórios te oferece o básico sobre a tecnologia blockchain em cursos que podem ser realizados em menos de 5 minutos. Sabe aquela viagem de ônibus ou de Uber pra chegar no rolê? Então, nela você pode concluir nossos cursos e de quebra receber um NFT lá da Open Sea no final de cada curso. \n \nSegredinho: Se você juntar os 10 NFTs pode começar a participar dos nossos sorteios de prêmios exclusivos.",
+    "subtitle": "Conhecimento se Compartilha",
+    "paragrapho": "Nossa trilha de cursos oferece desde o básico sobre a tecnologia blockchain e como manter seus ativos seguros até conhecimentos mais avançados sobre economia e engenharia de tokens. \n \nSão cursos que podem ser realizados em menos de 5 minutos e fornecem um token não-fungível (NFT) gerado pela plataforma 101.xyz no final de cada curso. Qualquer um pode verificar quem possui essas NFTs, constituindo uma ótima forma de incentivar estudantes a se aprofundarem nos temas da web3. \n \nSegredinho: as NFTs da Blockchain na Escola dão acesso a benefícios exclusivos em nossa comunidade.",
     "readmore": "Conheça os Cursos"
+  },
+  "missao": {
+    "title": "MISSÃO",
+    "subtitle": "Educar estudantes do ensino público sobre blockchain e web3 para fomentar o empreendedorismo regenerativo na América Latina",
+    "title2": "\nVISÃO",
+    "subtitle2": "Construir uma rede de apoio de professores, estudantes e startups para descentralizar a produção de material didático e inovação em economias locais"
   },
   "equipe": {
     "title": "Equipe",
-    "subtitle": "Nossa equipe é composta de uma coordenação de três pessoas e um time de contribuidores que revezam nos ajudando em temas específicos.",
+    "subtitle": "Nossa equipe é liderada por quatro contribuidores e um time de colaboradores que nos ajudam em temas específicos.",
     "paragrapho": "Coordenação",
     "card_1": {
       "name": "Marcelo Silva",
-      "title": "Coordenador",
-      "descricao": "Marcelo Silva, é pesquisador (PhD pela UFRJ) com foco em análise e desenho institucional, empreendedor social e escritor para a área de Blockchain e DeFi. É o idealizador do projeto e é quem faz o nosso desenho institucional e produz nosso conteúdo educacional."
+      "title": "Fundador & Advisor",
+      "descricao": "Marcelo Silva é pesquisador (PhD pela UFRJ) com foco em análise institucional, entusiasta das Finanças Regenerativas, Community Builder na ReFi Spring, Research Officer na Impact Plus e autor de cursos sobre web3 e ReFi com mais de 30 mil concluintes."
     },
     "card_2": {
-      "name": "Mariana Mota",
-      "title": "Coordenador",
-      "descricao": "Mariana Mota é nossa advogada, pós graduada em Direito Tributário, ela também tem experiência na área trabalhista. É quem cuida da revisão textual e também quem faz perguntas difíceis sobre a web3, Blockchain e DAOs no Brasil."
+      "name": "Gregory Azevedo",
+      "title": "Marca & Comunicação",
+      "descricao": "Gregory Azevedo é especialista em Growth Marketing, construção e estratégia de marcas, comportamento e tendências de consumo. Lidera nossas parcerias com influencer e escolas. Também lidera nosso marketing e as estratégias de redes sociais."
     },
     "card_3": {
-      "name": "Lucas Pacheco",
-      "title": "Coordenador",
-      "descricao": "Lucas Pacheco é um self made Desenvolvedor Full Stack com ampla experiência na Gerência de Projetos e Tecnologia Financeira. É responsável por toda nossa área tech, desde este site em que você está navegando agora até nossos projetos web3 secretos que você ainda vai ouvir falar no futuro."
+      "name": "Ariel Leite",
+      "title": "Coordenador & Produto",
+      "descricao": "Ariel é economista e gerente de produtos, mas aqui na BnE faz um pouco de tudo. Criou o curso HUM4NT3CH, reformulou nosso site, é responsável pelos planos de expansão nacional (e internacional!) e fica pentelhando os outros contribuidores no Telegram."
+    },
+    "card_4": {
+      "name": "Verber Alves",
+      "title": "Líder Regional",
+      "descricao": "Verber é nosso líder regional do programa em Belo Horizonte, que une também movimentos sociais através da iniciativa Blcktopia. É advogado com experiência em conflitos de crises humanitárias, produtor cultural e gerente de projetos."
     }
   },
   "contato": {
     "title": "Contatos",
-    "subtitle": "Você pode entrar em contato conosco pelo formulário ou pelas nossas redes sociais",
+    "subtitle": "Fale conosco pelo formulário ou nossas redes sociais",
     "formulario": {
       "nome": "Nome",
-      "placeholder_nome": "Informe o nome",
+      "placeholder_nome": "Seu nome",
       "email": "Email",
-      "placeholder_email": "Informe o email",
+      "placeholder_email": "Seu email",
       "mensagem": "Mensagem",
-      "placeholder_mensagem": "Escreva uma mensagem",
+      "placeholder_mensagem": "Como podemos te ajudar?",
       "enviar": "Enviar"
     }
   },

@@ -1,59 +1,70 @@
 {
   "hero": {
-    "title": "Blockchain na Escola",
-    "subtitle": "Integración de estudiantes de educación pública en tecnología Blockchain y web3",
-    "paragrapho": "Nuestro objetivo es ser una red descentralizada de maestros y creadores que lleven la educación de blockchain y web3 a escuelas públicas y proyectos sociales en América Latina. \n \nNuestro curso introductorio lleva a nuestros estudiantes en un viaje de comprensión de la desde los aspectos más básicos de la tecnología de cadena de bloques hasta temas más complejos, como los algoritmos de consenso y el hash. \n \nYa sea estudiante, profesor o administrador educativo, tenemos la ruta de los cursos para que se inicie en la tecnología de cadena de bloques."
+  "title": "Blockchain en la Escuela",
+  "subtitle": "Empoderar a los estudiantes de escuelas públicas con tecnología blockchain y web3",
+  "paragrapho": "Nuestro objetivo es ser una red descentralizada de docentes y creadores que lleven educación blockchain y web3 a escuelas públicas y proyectos sociales en Latinoamérica. \n \nNuestro curso introductorio lleva a nuestros estudiantes en un viaje desde la comprensión de los fundamentos de la tecnología blockchain hasta temas más complejos como algoritmos de consenso y hashing. \n \nYa sea que sea estudiante, maestro o administrador educativo, tenemos la ruta del curso para incorporarlo a la tecnología blockchain"
   },
-  "$nos": {
-    "title": "$NOS",
-    "subtitle": "La ficha social",
-    "paragrapho": "Nuestro token social $NOS proviene de la expresión “É noix” que reafirma el sentido de comunidad que une a gran parte de nuestra juventud. Pero no nos quedamos ahí, traducimos el término al español, para también conectar a nuestros hermanos de Latinoamérica. ¡Y de ahí surge la idea de $NOS! \n \nNuestro token tiene utilidad pedagógica, es utilizado por docentes y alumnos para interactuar en la web3.",
-    "readmore_cta": "¿Quieres ganar $NOS gratis?",
-    "readmore": "Haga clic aquí para saber cómo"
+  "$nos":  {
+  "title": "$NOS",
+  "subtitle": "El Token Social",
+  "paragrapho": "El nombre de nuestro token social - $NOS - proviene de la expresión brasileña “É noix”, que reafirma el sentido de comunidad que une a gran parte de nuestra juventud. El término también se puede traducir fácilmente al español, “nosotros”, para conectarse con nuestros hermanos en Latinoamérica. \n \n$NOS tiene un uso pedagógico, anima a los estudiantes a aprender y actúa como una herramienta para que los profesores creen interacciones dinámicas con web3 en el aula.",
+  "readmore_cta": "¿Quieres ganar $NOS gratis?",
+  "readmore": "Haga clic aquí para aprender cómo"
   },
-  "cursos": {
-    "title": "Cursos",
-    "subtitle": "Un rastro de conocimiento",
-    "paragrapho": "Nuestro curso introductorio te ofrece los conceptos básicos de la tecnología blockchain en cursos que se pueden tomar en menos de 5 minutos. ¿Conoces ese viaje en autobús o Uber para llegar al viaje? Entonces, en él puedes completar nuestros cursos y, por supuesto, recibe un NFT de Open Sea al final de cada curso.\n\nPequeño secreto: si te unes a los 10 NFT puedes empezar a participar en nuestros sorteos exclusivos.",
-    "readmore": "Conoce los Cursos"
+  "cursos":  {
+  "title": "Cursos",
+  "subtitle": "El Intercambio de Conocimientos",
+  "paragrapho": "Nuestro curso ofrece todo, desde los conceptos básicos de la tecnología blockchain y cómo almacenar de forma segura sus activos, hasta conocimientos más avanzados sobre economía e ingeniería de tokens. \n \nEstos son cursos que se pueden completar en menos de 5 minutos y proporcionan un token no fungible (NFT) generado por la plataforma 101.xyz al final de cada curso. Cualquiera puede verificar quién es el propietario de estos NFT, lo que lo convierte en una excelente manera de alentar a los estudiantes a profundizar en los temas de web3. \n\nAquí hay un secreto: Los NFTs de Blockchain en la Escula te dan acceso a beneficios exclusivos en nuestra comunidad.",
+  "readmore": "Descubre nuestros Cursos"
   },
-  "equipe": {
-    "title": "Equipe",
-    "subtitle": "Nuestro equipo está formado por una coordinación de tres personas y un equipo de colaboradores que se turnan para ayudarnos en temas específicos.",
-    "paragrapho": "Coordenação",
-    "card_1": {
-      "name": "Marcelo Silva",
-      "title": "Coordinación",
-      "descricao": "Marcelo Silva, es investigador (PhD de la UFRJ) enfocado en análisis y diseño institucional, emprendedor social y escritor para el área Blockchain y DeFi. Nuestros contenidos educativos."
-    },
-    "card_2": {
-      "name": "Mariana Mota",
-      "title": "Coordinación",
-      "descricao": "Mariana Mota es nuestra abogada, con posgrado en Derecho Tributario, también tiene experiencia en el área laboral. Es quien se encarga de la revisión de textos y también quien hace preguntas difíciles sobre web3, Blockchain y DAO en Brasil."
-    },
-    "card_3": {
-      "name": "Lucas Pacheco",
-      "title": "Coordinación",
-      "descricao": "Lucas Pacheco es un Desarrollador Full Stack hecho a sí mismo con amplia experiencia en Gestión de Proyectos y Tecnología Financiera. Es responsable de toda nuestra área de tecnología, desde este sitio actualmente está navegando a nuestros proyectos web3 secretos que aún escuchará al respecto en el futuro."
+  "missao":  {
+    "title": "MISIÓN",
+    "subtitle": "Educar a estudiantes de escuelas públicas sobre blockchain y la web3 para fomentar el espíritu empresarial regenerativo en Latinoamérica",
+    "title2": "\nVISIÓN",
+    "subtitle2": "Construir una red de apoyo de docentes, estudiantes y startups para descentralizar la producción de materiales didácticos y la innovación en las economías locales"
+  },
+  "equipe":  {
+    "title": "Equipo",
+    "subtitle": "Nuestro equipo está liderado por cuatro contribuidores y un equipo de colaboradores que nos ayudan con temas específicos.",
+    "paragrapho": "Coordinación",
+  "card_1":  {
+    "name": "Marcelo Silva",
+    "title": "Fundador y Asesor",
+    "descricao": "Marcelo Silva, es investigador (PhD por la UFRJ) enfocado en análisis y diseño institucional, emprendedor social y escritor para el área Blockchain y DeFi. Fue el fundador del proyecto, pero hoy solo trabaja como asesor debido a su papel en ReFi Spring"
     }
   },
-  "contato": {
+  "card_2":  {
+    "name": "Gregorio Azevedo",
+    "title": "Marca y Comunicación",
+    "descricao": "Gregory Azevedo es especialista en Growth Marketing, construcción y estrategia de marca y tendencias de comportamiento del cliente. Dirige nuestras asociaciones con influencers y escuelas. También lidera nuestras estrategias de marketing y redes sociales"
+  },
+  "card_3":  {
+    "name": "Ariel Leite",
+    "title": "Coordinador y Producto",
+    "descricao": "Ariel es economista y product manager, pero aquí en BnE hace de todo un poco. Creó el curso HUM4NT3CH, renovó nuestro sitio web, es responsable de los planes de expansión nacionales (¡e internacionales!) y sigue molestando a otros contribuidores en Telegram"
+  },
+  "card_4":  {
+    "name": "Verber Alves",
+    "title": "Líder Regional",
+    "descricao": "Verber es nuestro líder de programa regional en Belo Horizonte, que también une a los movimientos sociales a través de la iniciativa Blcktopia. Es abogado con experiencia en conflictos de crisis humanitaria, productor cultural y gestor de proyectos"
+  },
+  "contato":  {
     "title": "Contactos",
-    "subtitle": "Puedes contactar con nosotros a través del formulario o a través de nuestras redes sociales.",
-    "formulario": {
-      "nome": "Nombre",
-      "placeholder_nome": "Ingrese el nombre",
-      "email": "Correo electrónico",
-      "placeholder_email": "Ingrese el correo electrónico",
-      "mensagem": "Mensaje",
-      "placeholder_mensagem": "Escribir un mensaje",
-      "enviar": "Enviar"
+    "subtitle": "Háblanos a través del formulario o de nuestras redes sociales",
+  "formulario":  {
+    "nome": "Nombre",
+    "placeholder_nome": "Su nombre",
+    "email": "Correo electrónico",
+    "placeholder_email": "Tu correo electrónico",
+    "mensagem": "Mensaje",
+    "placeholder_mensagem": "¿Como podemos ayudarte?",
+    "enviar": "Enviar"
     }
   },
-  "redes": {
-    "title": "Redes Sociales"
+  "redes":  {
+   "title": "Redes sociales"
   },
-  "parcerias": {
-    "title": "Asociaciones"
+  "parcerias":  {
+   "title": "Asociaciones"
   }
 }

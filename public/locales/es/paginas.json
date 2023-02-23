@@ -1,116 +1,159 @@
 {
   "cursos": {
-    "title": "Pista de cursos",
-    "curso1": "Como preparar tu Metamask en Google Chrome.",
-    "curso2": "Origen de la Tecnología Blockchain.",
-    "curso3": "Como preparar tu Metamask en el movil.",
-    "curso4": "Elementos básicos de una cadena de bloques.",
-    "curso5": "Agregando Blockchains, Criptomonedas y NFTs en Metamask",
-    "curso6": "Como convertir criptomonedas a reales.",
+    "title": "Seguimiento del curso",
+    "content1": "Sugerimos a los estudiantes que tomen los cursos en el siguiente orden. Puedes encontrarlos ",
+    "link1": "https://101.xyz/c/blockchainnaescola",
+    "content2": "aquí",
+    "curso1": "Cómo configurar tu Metamask en Google Chrome",
+    "curso2": "Los orígenes de la tecnología Blockchain",
+    "curso3": "Cómo configurar Metamask en el móvil",
+    "curso4": "Comprender los elementos de una red Blockchain",
+    "curso5": "Adición de nuevas redes de criptomonedas y NFT en Metamask",
+    "curso6": "Cómo convertir criptomonedas en reales",
     "curso7": "¿Qué son las NFT?",
-    "curso8": "¿Qué son DeFi?",
-    "curso9": "¿Qué son ReFi?",
-    "curso10": "Cómo construir tu carrera en tecnología blockchain"
+    "curso8": "¿Cómo puede Blockchain democratizar Internet?",
+    "curso9": "¿Cómo puede Blockchain distribuir la riqueza?",
+    "curso10": "La historia del dinero y el surgimiento de las criptomonedas",
+    "cursoX": "¿Qué es DeFi?",
+    "cursoY": "¿Qué es ReFi?"
   },
-  "$nos": {
-    "title": "$NOS - El token social",
-    "content1": "Nuestro token social, $NOS, proviene de la expresión brasileña “É Noix” que reafirma el sentido de comunidad que une a una gran parte de nuestra juventud. Sin embargo, el término se traduce al español, siendo extraído de la expresión \"Nosotros\", (nosotros).",
-    "content2": "Nuestra idea es recordar que todo lo que tenemos es el uno para el otro.",
-    "content3": "“Todo lo que tenemos somos nosotros”. emicida.",
-    "subtitle1": "¿Qué es un token social?",
-    "content4": "Un token social es una forma de transferir información entre personas y entre instituciones, por ejemplo, dinero (Real) es un tipo de token que transfiere información sobre valor financiero entre personas. ejemplo, es un token que contiene el información de que el propietario tiene derecho a intentar ganar el juego.",
-    "content5": "One by Harmony es un token que te permite acceder a un ecosistema de servicios blockchain donde puedes transferir cualquier tipo de información con extrema velocidad, seguridad y bajo costo.",
-    "subtitle2": "¿Para qué sirve $NOS?",
-    "content6": "La vida de $NOS se dividirá en tres etapas, en la primera tendrá una función didáctica para que los alumnos del curso puedan tener contacto con un token social desde su creación hasta su lanzamiento.",
-    "subtitle3": "1ra etapa de $NOS",
-    "content7": "El token se creará junto con los estudiantes y debe usarse para contar la presencia de cada uno en las clases, pero no termina ahí: al final del curso, los estudiantes se organizarán en grupos , por afinidad, y unirse a su $NOS para contratar servicios de consultoría de nuestra red de colaboradores ¿Consultoría para qué?",
-    "content8": "El objetivo de nuestra iniciativa es que los estudiantes tengan acceso a Web3, Blockchain y la industria de la innovación en general, y el acceso que queremos ofrecer no es como mano de obra, sino como creador, desarrollador o cualquier otro rol de Protagonismo.",
-    "content9": "Contaremos con un sólido equipo de consultores que puedes consultar haciendo clic aquí, y este equipo crecerá a medida que nos expandamos a más ciudades y países",
-    "subtitle4": "Segunda etapa de $NOS",
-    "content10": "En la segunda etapa de la vida de $NOS, no solo los estudiantes, sino cualquiera que la posea podrá acceder a nuestra plataforma educativa y disfrutar de nuestros servicios (recordando que nuestros estudiantes seguirán recibiendo $NOS por aprender) .entonces el $NOS tendrá un valor financiero, ya que las personas e instituciones podrán adquirirlo ya sea para acceder a los servicios o para mantenerlo como inversión.",
-    "subtitle5": "3ra etapa de $NOS",
-    "content11": "En la tercera etapa de la vida de $NOS, se usará como una de las herramientas de gobierno de nuestra plataforma. Con $NOS podrás decidir el futuro de la plataforma como un todo, presentar nuevas propuestas, elegir a alguien para alguna función específica, etc.",
-    "content12": "Esta etapa es de madurez que exige sabiduría y justicia. De lo contrario, todo lo que construyamos se convertirá en objeto de alguien lo suficientemente rico como para comprar una gran cantidad de $NOS y decidir el futuro de nuestra red",
-    "content13": "Por lo tanto, para evitar este tipo de cosas, construiremos un sistema de consenso que se base en la proporción en lugar de la cantidad (este sistema se construirá en colaboración con instituciones que tengan experiencia en gobernanza, como Token Engineers). ",
-    "content14": "Acuerdo de token: 0xDa409E3acA8354cD4d5706D27154dE4C8580e436",
-    "content15": "Nombre: NOS"
+    "$nos": {
+      "title": "$NOS - El Token Social",
+      "content1": "El nombre de nuestro token social - $NOS - proviene de la expresión brasileña “É nóix,” reafirmando el sentido de comunidad que une a una gran parte de nuestra juventud. El término también se puede traducir fácilmente al español, nosotros, lo que nos permite dialogar con la juventud latinoamericana en su conjunto.",
+      "content2": "Nuestra idea es recordarles a todos que todo lo que tenemos es el uno al otro.",
+      "content3": "En palabras del rapper Emicida: “Somos todo lo que tenemos”",
+  
+    "subtitle1": "¿Qué es un Token?",
+    "content4": "Los tokens son una forma de transferir información o valores entre personas e instituciones. El dinero (real o peso), por ejemplo, es una ficha que transfiere valores financieros. La ficha de la Fiesta de Junio ​​de Brasil (o São João, para los nororientales), es una ficha que contiene la información de que tienes derecho a comprar una tapioca, por ejemplo.",
+    "content5": "Un ejemplo en el contexto de web3, el token $CELO de la red Celo permite a los usuarios acceder a un ecosistema de servicios blockchain, donde pueden transferir cualquier tipo de información o valor con extrema velocidad, seguridad y bajo costo.",
+  
+    "subtitle2": "$NOS - El Token Social,",
+    "content6": "$NOS es un token social, ya que su función está ligada a aprender y proporcionar tutoría y consultoría para los graduados de Blockchain en la Escuela.",
+    "content7": "El desarrollo de $NOS se dividirá en tres fases. Nuestro primer objetivo es permitir a los alumnos del curso tener contacto con un token social y poder seguir su evolución, y animarles a continuar su aprendizaje fuera del aula.",
+  
+    "subtitle3": "Fase 1 - Mojarse los Pies",
+    "content8": "Nuestros estudiantes recibirán tokens de $NOS por asistir a clases, responder a nuestras encuestas de comentarios sobre vocaciones y cursos, y completar nuestros cursos adicionales en la plataforma ",
+    "link1": "https://101.xyz/c/blockchainnaescola,",
+    "textolink1": "101.xyz.",
+    "content9": "En la Fase 1, los estudiantes podrán usar su $NOS para contratar mentores o inscribirse en cursos de nuestra red de socios, donde pueden continuar su aprendizaje y volverse cada vez más expertos en las áreas de su interés.",
+    "content10": "Nuestra iniciativa tiene como objetivo brindar a los estudiantes acceso a la web3, blockchain y la innovación en general. El objetivo es incluirlos como creadores, desarrolladores y otros roles principales.",
+  
+    "subtitle4": "Fase 2 - ¡Las Cosas se están Poniendo Serias!",
+    "content11": "En la segunda etapa de vida de $NOS, tendremos un equipo de consultores de primer nivel para apoyar a los estudiantes en el desarrollo de proyectos, y este equipo irá aumentando a medida que nos expandamos a más ciudades y países.",
+    "content12": "Aquí, la idea es usar la capacitación vocacional de la Fase 1 para ayudarlos a formar grupos para crear soluciones dentro de sus comunidades. Nuestros consultores, junto con el centro de incubación que construiremos, ofrecerán sus servicios a cambio de $NOS para acelerar la creación e implementación de estos proyectos.",
+  
+    "subtitle5": "Fase 3: Una Plataforma Educativa Escalable y Descentralizada",
+    "content13": "En la tercera etapa de vida de $NOS, cualquiera podrá utilizarla para acceder a nuestra plataforma educativa y disfrutar de nuestros servicios (recordatorio: nuestros alumnos seguirán recibiendo $NOS por su aprendizaje).",
+    "content14": "El $NOS entonces adquirirá valor financiero, ya que cualquier persona e institución podrá adquirirlo para acceder a nuestros servicios o como inversión.",
+    "content15": "El token también se utilizará para descentralizar la gobernanza de nuestra plataforma y organización. Los titulares de $NOS decidirán el futuro de la plataforma en su conjunto, pudiendo hacer propuestas para su evolución y uso de fondos de tesorería, elegir consejos para funciones específicas, y más.",
+    "content16": "Esta etapa es de madurez y exige sabiduría y equidad. Queremos asegurarnos de que todo lo que construimos sea administrado por quienes más pueden disfrutar de esta infraestructura: los jóvenes de las comunidades periféricas, los profesores de las escuelas públicas y las empresas emergentes enfocadas en el área de impacto social.",
+    "content17": "Es por eso que utilizaremos sistemas de consenso que privilegian a los usuarios con prioridades alineadas con las nuestras a largo plazo, en lugar de otorgar mayor poder de voto a quienes tienen más tokens. Este sistema se construirá en asociación con instituciones que tienen experiencia en ingeniería y gobierno de tokens, como Token Engineers y Commons Stack.",
+    "content18": "Contrato de Token (red Celo):",
+    "link2": "https://explorer.celo.org/mainnet/address/0xdC2936a120B19C23e938d42744Bc1666317913B6/contracts#address-tabs",
+    "textolink2": "0xDa409E3acA8354cD4d5706D27154dE4C8580e436",
+    "content19": "Símbolo: NOS"
   },
-  "projeto": {
-    "title": "Cadena de bloques en la escuela - DAO",
-    "part1": "En las últimas décadas la narrativa sobre América Latina ha cambiado de colores y esperanza a pobreza y autoritarismo. \n \nEsta realidad destruye familias, sueños y generaciones enteras, robándoles la capacidad de soñar. \n \nAl mismo tiempo, la industria web3 y la tecnología blockchain surgen como herramientas para liberar, empoderar y generar ingresos para la sociedad civil, pero la falta de contenido en portugués y español (no solo en la versión formal, sino en un idioma accesible para las personas) de contextos pobres) ha construido un muro que impide que estas personas accedan a estas herramientas. \n \nLa comunidad, la innovación y la creatividad son algunos de los recursos más escasos en la tierra y todos son abundantes en América Latina. Fue esta reunión de necesidades y disponible recursos que nos trajeron la idea de construir un curso sobre Blockchain en una escuela pública en un barrio pobre de la ciudad de Serra, ES.\n\nEl curso ha ido bien y se podía ver en el primer enlace. hacemos la pregunta: \n\n",
-    "subtitle2": "¿Por qué formar una DAO?",
-    "part2": "La fuente del éxito del curso, el bajo costo y la posibilidad de llegar al corazón de los estudiantes solo es posible porque los profesores están vinculados a los estudiantes de muchas maneras.\n \nSin esta pertenencia, es sería inviable que el proyecto llegue a los estudiantes, y sin los recursos sería inviable que las personas que llegan a los estudiantes se dediquen de lleno a la tarea de enseñar web3 y blockchain.\n\nPor eso estamos creando una red descentralizada de profesores quienes brindarán educación y conocimientos sobre blockchain y web3 en el contexto de escuelas públicas y proyectos sociales en diferentes comunidades de América Latina.\n \nComo pretendemos expandirnos a diferentes regiones de Brasil y América Latina, es necesario que los maestros estén vinculados a los estudiantes Necesitamos ser una red de cooperación, un ecosistema de educación y abrigo.\n \nEl modelo institucional DAO proporciona la infraestructura para hacer todo esto a un bajo costo y un s sistema de gobernanza y transparencia extremadamente futurista y eficiente.\n \n",
-    "subtitle3": "Nuestras asociaciones",
+
+    "projeto": {
+      "title": "Blockchain en la Escuela",
+      "part1": "Durante la última década, la narrativa sobre Latinoamérica ha pasado de los colores y la esperanza a la pobreza y el autoritarismo. \n \nEsta realidad destruye familias, empresas y generaciones enteras. Las capas más vulnerables de la sociedad se ven especialmente afectadas, robándoles su capacidad de soñar. \n \nAl mismo tiempo, la industria web3 y la tecnología blockchain emergen como herramientas para liberar, empoderar y generar ingresos para la sociedad civil. Sin embargo, la falta de contenidos en portugués y español - sobre todo en un lenguaje accesible, sin tanta jerga técnica - ha levantado muros que impiden el acceso a estas herramientas. \n \nLa comunidad, la innovación y la creatividad son algunos de los recursos más escasos de la Tierra, pero todos son abundantes en Latinoamérica. Fue esta combinación de necesidades y recursos disponibles lo que llevó a Marcelo a construir un curso sobre blockchain en una escuela pública en un barrio pobre de la ciudad de Serra, ES.",
+      "part100": "Y así nació Blockchain en la Escuela. El curso inicial fue muy bien recibido - para obtener más detalles, haga clic ",
+      "link1": "https://blockchainnaescola.notion.site/Nossos-Projetos-roadmap-9bb151d1c689472c872c835a88a4284b",
+      "textolink1": "aquí",
+      "part101": " -, lo que nos motivó a iniciar un nuevo capítulo en el que buscamos hacer escalable la enseñanza sobre web3.",
+  
+    "subtitle2": "Un nuevo enfoque",
+    "part2": "Analizando el proyecto piloto, nos dimos cuenta que el éxito de nuestro curso depende de:",
+    "sucesso": {
+    "sucesso1": "Posibilidad de llegar al corazón de los alumnos. Esto sólo es posible utilizando el vínculo entre profesores y alumnos.",
+    "sucesso2": "Traducir web3 a la vida diaria de los estudiantes. Por eso buscamos explicar web3 a través de los problemas que puede resolver en torno a la tecnología y el dinero en la sociedad actual.",
+    "sucesso3": "Formación práctica. Brinde a los estudiantes oportunidades para aplicar en la práctica el conocimiento que brindamos, ya sea interactuando con dapps o con actividades grupales.",
+    "sucesso4": "Intercambio de conocimiento y mejora continua. Como todo producto, necesitamos acercarnos a la realidad del usuario final para seguir mejorando nuestros contenidos."
+  },
+    "part3": "En este nuevo capítulo del proyecto, buscamos capacitar a profesores de escuelas públicas para brindar educación sobre blockchain y web3. \n \nNuestra ambición es que nuestros cursos alcancen un alcance nacional y posiblemente se expandan a toda Latinoamérica. Esto solo es posible acercándose a los profesores que están vinculados a los estudiantes. \n \nAdemás de brindar oportunidades de desarrollo para los profesores, recibimos comentarios continuos de quienes ya viven el día a día de la escuela pública. Queremos darles a los profesores esta oportunidad de co-crear y mejorar nuestro contenido. \n \nFinalmente, creemos que los estudiantes necesitan entender por qué web3 es tan importante. La descentralización no es solo la estética de usar la cartera digital de un zorro. Es la posibilidad de un cambio de paradigma respecto al actual modelo económico. Es el empoderamiento del usuario frente al monopolio de las plataformas de internet. \n \nEsto nos da la esperanza de que web3 pueda tener un gran impacto social y ambiental, especialmente en las comunidades periféricas. Nuestro objetivo es transmitir esta visión a los estudiantes para que se conviertan en protagonistas del mercado tecnológico, ya sea como emprendedores o como mano de obra calificada.\n",
+    "subtitle3": "Nuestras Asociaciones",
     "parcerias": {
-      "parcerias1": "BlackLeadersDAO (Oferta de Contenidos y Formación del Profesorado)",
-      "parcerias2": "Blockchain Press Club DAO (Plataforma de intercambio, contenido y formación de profesores.)",
-      "parcerias3": "Mempodera DAO (Compartir contenidos y formación de profesores y alumnos.)",
-      "parcerias4": "KreadivDAO (Divulgación mutua y uso compartido de maestros)",
-      "parcerias5": "Observatorio Latinoamericano de Blockchain (Producción Teórica Compartida)",
-      "parcerias6": "SteamHouse (Compartir $NOS token social, contenido y capacitación de maestros)"
+      "parcerias1": "BlackLeadersDAO (Oferta de contenidos y formación de profesores),",
+      "parcerias2": "Blockchain Press Club DAO (Compartir plataforma, contenido y formación de profesores).",
+      "parcerias3": "Mempodera DAO (Intercambio de contenidos y formación de profesores y alumnos.),",
+      "parcerias4": "KreadivDAO (Alcance mutuo y uso compartido de profesores).",
+      "parcerias5": "Observatorio Latinoamericano de Blockchain (Compartir producción teórica),",
+      "parcerias6": "SteamHouse (intercambio de token social $NOS, contenido y formación de profesores)."
     },
-    "subtitle4": "Sostenibilidad",
-    "part4": "La sustentabilidad (institucional y financiera) será el principal desafío de las DAO en los próximos meses, por lo que tenemos dos enfoques sobre este tema: \n \nVemos la sustentabilidad institucional como capacidad como el eslabón que une a varias generaciones de la misma objetivo, por lo que una de las tareas de nuestros gobernadores será educar a los nuevos sobre las herramientas, los desafíos y los requisitos para el rol de gobernador.\n \nEl segundo enfoque está vinculado a la rendición de cuentas, por lo que cada gobernador estará vinculado a los contribuyentes' tarea para que ambos puedan, juntos, administrar el tiempo y los recursos para evitar malas sorpresas.\n \nSobre la sostenibilidad financiera, tenemos tres enfoques: \n \nEl primero es consolidar nuestro proyecto como un referente de excelencia para que podamos ofrecer educación a colegios y entidades privadas (siempre en la proporción de 7-3, siete colegios públicos o proyectos sociales y tres entidades privadas).\n\nProporcionar contenido didáctico ico on demand para otras DAO y entidades (debido al alto costo de producir contenido didáctico, muchas instituciones tienden a reutilizar el mismo contenido en diferentes enfoques, pero sabemos que el contenido producido fuera del contexto del estudiante puede no tener los recursos para tocar el corazón . Como los antecedentes serán uno de nuestros principales recursos, podremos producir contenido educativo a un costo razonable). \n \nEl tercero será el uso del mercado de liquidez (con y sin pérdida temporal) para que podamos generar ingresos a largo plazo. Todos los fondos cuyo programa de gastos exceda un mes se asignarán a un fondo de liquidez para que continúe generando tarifas que podamos cobrar. \n\n",
-    "subtitle5": "La Primera Expansión",
-    "part5": "En la primera expansión (2022) el proyecto cubrirá las ciudades brasileñas: \n \nSerra, en el estado de Espírito Santo. (30 estudiantes) \n \nMacaé, en el estado de Río de Janeiro. ( 50 estudiantes) \n \nCubatão, en el estado de São Paulo (128 estudiantes) \n \nSão Luiz do Maranhão, en el estado de Maranhão (64 estudiantes) \n \nRio de Janeiro, estado de Rio de Janeiro (10 estudiantes ) \n \nBelo Horizonte, Minas Gerais (18 estudiantes) \n \nTotal de la primera edición: 300 estudiantes \n \n",
-    "subtitle6": "Nuestras metas para el primer año son:",
+  
+    "subtitle4": "Contenido y seguimiento extraescolar",
+    "part4": "Llamamos al contenido recientemente desarrollado HUM4NT3CH para simbolizar la necesidad de humanizar el desarrollo tecnológico. \n \nEn las últimas décadas, la internet ha permitido un progreso tecnológico sin precedentes. Sin embargo, la mayor parte de la riqueza generada se ha concentrado en manos de unas pocas empresas, que explotan a sus usuarios, creadores y/o vendedores para maximizar sus ingresos para los accionistas. \n \nEs precisamente este escenario de explotación en el que nos estamos enfocando en la construcción de nuestro curso central. Como tal, profundizamos en dos cuestiones principales:",
+    "problematicas":{
+      "problematica1": "¿Cómo puede blockchain democratizar internet?",
+      "problematica2": "¿Cómo puede blockchain distribuir la riqueza?"
+  },
+    "part102": "Puede acceder al contenido detallado en: ",
+    "link2": "https://blockchainnaescola.notion.site/HUM4NT3CH-Ethics-for-a-Humanized-Technological-Development-d288f13809de480c8a0d3942681262fb",
+    "textolink2": "HUM4NT3CH: Desarrollo Tecnológico Humanizado.",
+    "part5": "Después de la clase, podemos aprovechar la trazabilidad de los registros de blockchain verificables públicamente para proporcionar un seguimiento posterior a la clase para los estudiantes. Podemos rastrear cuáles de nuestros módulos están haciendo para ayudar a guiarlos en su camino de aprendizaje. \n \nAdemás, estamos creando una red de mentores para ayudar a nuestros estudiantes en su desarrollo continuo. También buscaremos oportunidades de certificación para ellos a través de nuestra red de socios. \n \nDe esa manera, esperamos hacer de web3 la puerta de entrada para incorporar a estos estudiantes al mercado tecnológico. \n \nLos estudiantes son las mejores personas para desarrollar nuevos productos y servicios que pueden mejorar la vida dentro de sus comunidades. Blockchain in the School solo proporciona las herramientas y conecta a las personas adecuadas para acelerar este proceso de innovación. \n\n¡Juntos somos más fuertes! \n",
+    "subtitle5": "La primera expansión",
+    "part6": "En la primera expansión (2022), el proyecto abarcará ciudades brasileñas: \n \nSerra, en el estado de Espírito Santo. (30 estudiantes) \n \nMacaé, en el estado de Río de Janeiro. (50 estudiantes) \n \nCubatão, en el estado de",
+    "subtitle6": "Entregas para 2023",
+    "part7": "Primer semestre",
     "goals1": {
-      "goal1": "Construir la estructura en línea del proyecto (sitio web, telegram, discord, etc.).",
-      "meta2": "Construir la estructura administrativa del proyecto (gobernanza, rendición de cuentas, legal, etc.).",
-      "goal3": "Construir una red de cooperación con otras instituciones para reducir costos y aumentar nuestra eficiencia.",
-      "goal4": "Ampliar el proyecto a por lo menos dos países latinoamericanos más (Ya en negociaciones con Argentina y México)",
-      "goal5": "Ampliar el número de nuevos estudiantes a 1000.",
-      "goal6": "Capacitar a 30 maestros por año.",
-      "goal7": "Crea 2 MVP para la sostenibilidad financiera que se puedan replicar",
-      "goal8": "Crear dos cursos introductorios en línea sobre blockchain y web3 en portugués y español (no solo el idioma formal, sino que reflejen la cultura de cada país latinoamericano)."
-    },
-    "subtitle7": "Nuestras metas para los primeros cinco años son:",
+      "goal1": "HUM4NT3CH Curso: Desarrollo Tecnológico Humanizado",
+      "goal2": "Pistas de aprendizaje sobre web3 en la plataforma 101.xyz",
+      "goal3": "Estructura en línea del proyecto (sitio web, Discord, Telegram)",
+      "goal4": "Comunicación regular a través de Twitter, Instagram, Lens Protocol, Celo forum y Mirror",
+      "goal5": "Lanzamiento del token $NOS en la red Celo",
+      "goal6": "Derivación de alumnos a mentorías/cursos de especialización",
+      "goal7": "Proceso de certificación de docentes capacitados en el contenido",
+      "goal8": "Definición de modelo de negocio para la creación de contenidos educativos",
+      "goal9": "Planificación estratégica de marketing (objetivos de seguidores, compromiso, etc.)",
+      "goal10": "Planificación de la expansión del proyecto"
+  },
+    "part8": "Segundo semestre",
     "goals2": {
-      "goal1": "Construir una academia en línea para ofrecer educación, gratuita, a escuelas públicas y proyectos sociales. (2 años)",
-      "goal2": "Formar 100 profesores cada año. (2 años)",
-      "goal3": "Construir un ecosistema de servicios entre nuestros socios. (2 años)",
-      "goal4": "Tener al menos tres países con estructuras de sostenibilidad financiera. (4 años)",
-      "goal5": "Educar a 1,000 estudiantes por año en al menos 3 países de LATAM. (4 años)",
-      "goal6": "Crear al menos 5 MVP para la sostenibilidad financiera que se puedan replicar. (5 años)",
-      "goal7": "Expandirse a todos los países de LATAM. (5 años)"
+      "goal1": "Incorporación de graduados del primer semestre a web3",
+      "goal2": "Contratación de profesores para desarrollar nuevos cursos.",
+      "goal3": "Acercamiento a las secretarías municipales de educación para la institucionalización de cursos",
+      "goal4": "Implementación de contenidos en 3 plataformas educativas",
+      "goal5": "Creación de una estructura institucional para una organización autónoma descentralizada (DAO)",
+      "goal6": "Entrega del primer curso en español"
     },
-    "subtitle8": "Mandatos",
-    "mandatos": {
-      "mandato1": {
-        "title": "Diseña la propuesta de las estructuras DAO",
-        "descricao": "Desenhar a proposta para as estruturas do DAO.",
-        "entregaveis": "Deliverables: La propuesta de la estructura online de comunicación y toma de decisiones. La identidad conceptual de la DAO. El diseño de tokens sociales y el sistema de “Listening”."
-      },
-      "mandato2": {
-        "title": "Tecnología",
-        "descricao": "Construye (o coordina) y mantiene toda la estructura en línea de DAO y ayuda en el contenido didáctico.",
-        "entregaveis": "Entregables: La creación de la billetera multisig, token social, sitio web, forma un equipo de tutores para ayudar a los estudiantes que muestran interés en aprender a codificar."
-      },
-      "mandato3": {
-        "title": "Coordinación Operativa",
-        "descricao": "Formar equipos. 2. Operar el sistema de escucha. 3. Seguimiento de acciones, plazos, recursos y demandas.",
-        "entregaveis": "Entregables: Asigne a todos una lista de tareas pendientes que se alinee con los objetivos del primer año de la DAO y desarrolle criterios para evaluar el logro de esas tareas."
-      }
+    "subtitle7": "Métricas de éxito (2023)",
+    "goals3": {
+      "goal1": "Graduan 300 estudiantes en Salvador, Rio de Janeiro y Belo Horizonte",
+      "goal2": "Incorporación del 100% de los estudiantes a web3 (descargue la cartera, agregue la red Celo y reciba el token de $NOS)",
+      "goal3": "Certifican 13 docentes de diferentes escuelas",
+      "goal4": "Identificar 10 mentores de diferentes campos (por ejemplo, programación, producto)",
+      "goal5": "Organice un hackatón centrado en la resolución de problemas en las comunidades de estudiantes",
+      "goal6": "",
+      "goal7": ""
     },
-    "subtitle9": "Nuestros primeros gobernadores",
-    "governor1": "Mariana Mota es abogada y funcionaria del interior de la ciudad de João Neiva. Es especialista en Derecho Tributario. Sus principales intereses son la preservación del medio ambiente y la salud mental de los jóvenes.",
-    "governor2": "Marcelo Silva es un investigador brasileño (PhD) centrado en el análisis institucional y el diseño institucional. Mi investigación actual tiene como objetivo construir un modelo de fondos de liquidez que financien iniciativas con un impacto positivo en la sociedad y el medio ambiente",
-    "governor3": "Lucas Pacheco es un Desarrollador FullStack (PHP; MYSQL; Laravel; Docker; Firebase; CSS; SCSS; Javascript (Vanila, React JS, React Native) creado (Serra) y residente (Vitoria) en el estado de Espírito santo",
-    "subtitle10": "Nuestros Colaboradores",
-    "colaboradores": {
-      "collaborator1": "Verber Souza, abogado y especialista en DeFi de Minas Gerais, Brasil.",
-      "collaborator2": "Aline Silva, Emprendedora social y atleta de São Paulo, actualmente vive en Río de Janeiro.",
-      "collaborator3": "Melonie Brown coordina un proyecto sobre alfabetización financiera en Nueva York.",
-      "collaborator4": "Fausto Vanin, emprendedor y activista de blockchain durante 5 años. Cofundador de One Percent.",
-      "collaborator5": "Diego Moraes, periodista del estado de Río de Janeiro, trabaja para Globo, que es el segundo canal de televisión más grande del mundo.",
-      "collaborator6": "André Donadia, enseña inglés y filosofía",
-      "collaborator7": "William Caldeira, fotoperiodismo y diseño.",
-      "collaborator8": "Diana Aguilar, periodista de Venezuela"
+    "goals4": {
+      "goal1": "Expansão nacional e internacional (na Latinoamérica)",
+      "goal2": "Graduan 600 estudiantes en Latinoamérica",
+      "goal3": "Prospect 5 socios para desarrollar proyectos estudiantiles",
+      "goal4": "30 alumnos certificados en cursos de especialización en áreas tecnológicas",
+      "goal5": "10 estudiantes desarrollando proyectos web3 en sus comunidades",
+      "goal6": "Certificar a 30 docentes de diferentes escuelas",
+      "goal7": "Presentar el proyecto en un web3 o evento de emprendimiento de impacto",
+      "goal8": "",
+      "goal9": ""
     },
-    "subtitle11": "Cómo se aplicarán los recursos",
-    "part11": "Los fondos financiarán la consolidación de nuestra estructura y la expansión a otras regiones de Brasil y LATAM. \n \nLos fondos se aplicarán de la siguiente manera: \n \nNuestros gobernadores podrán dedicarse a tiempo completo a cumplir nuestras metas como DAO con un pago de US$ 200.00 por semana. \n \nPodremos construir hackatones para involucrar a más estudiantes en las escuelas donde estaremos operando. (El dinero financiará los premios) \n \nLo haremos poder entregar algunas becas para que nuestros estudiantes tengan la oportunidad de viajar y visitar empresas emergentes y empresas que ya operan en la web3.\n\nHerramientas de administración de redes sociales.\n\nSoftware de productividad (G Suite Professional, Canva, Calendly) Alojamiento web y dominiosCadena configuración votación on-line y off-chain (Aragón, Instantánea)\n\nBlockchain gestión y tarifas",
-    "subtitle12": "Métricas de éxito del primer año",
-    "metricas": {
+
+  "subtitle9": "Nuestros colaboradores",
+  "governor1": "Ariel es economista y gerente de producto. Se unió a web3 en busca de proyectos que fomentaran las economías regenerativas y la inclusión social a través del emprendimiento, y hoy lidera la coordinación y desarrollo de productos en BnE.",
+  "governor2": "Marcelo Silva es investigador (PhD de la UFRJ) con enfoque en análisis y diseño institucional, emprendedor social y escritor para Blockchain y DeFi. Fundó el proyecto y hoy actúa como asesor debido a su protagonismo en ReFi Spring.",
+  "governor3": "Gregory Azevedo es nuestro gerente de marca y comunicaciones. Growth Marketing, experto en construcción y estrategia de marca, comportamiento del consumidor y tendencias. Dirige estrategias de redes sociales y asociaciones con personas influyentes y escuelas.",
+  "governor4": "Verber Alves es abogado, coordinador de proyectos de recuperación ambiental y conflicto humanitario, investigador en Blockchain y Web3, miembro y desarrollador de proyectos educativos y de impacto social en web3.",
+  "subtitle10": "Nuestros colaboradores,",
+  "colaboradores": {
+    "colaborador1": "Lucas Pacheco, desarrollador Full Stack autodidacta y creador de la web original de BnE.",
+    "colaborador2": "Ana Caroline, Presidenta y Directora Ejecutiva de Educar+.",
+    "colaborador3": "William Caldeira, designer y criador de nosso logo y brand assets"
+    },
+  
+  "subtitle11": "Cómo se aplicarán los recursos",
+  "part11": "Los fondos financiarán la consolidación de nuestra estructura y la expansión a otras regiones de Brasil y LATAM. \n \nLos fondos se aplicarán de la siguiente manera: \n \nNuestros gobernadores podrán dedicarse a tiempo completo a cumplir nuestras metas como DAO con un pago de US$ 200.00 por semana. \n \nPodremos construir hackatones para involucrar a más estudiantes en las escuelas donde estaremos operando. (El dinero financiará los premios) \n \nLo haremos poder entregar algunas becas para que nuestros estudiantes tengan la oportunidad de viajar y visitar empresas emergentes y empresas que ya operan en la web3.\n\nHerramientas de administración de redes sociales.\n\nSoftware de productividad (G Suite Professional, Canva, Calendly) Alojamiento web y dominiosCadena configuración votación on-line y off-chain (Aragón, Instantánea)\n\nBlockchain gestión y tarifas",
+  "subtitle12": "Métricas de éxito del primer año",
+  "metricas": {
       "metrica1": "1 sitio operativo completo",
       "metrica2": "300 personas activas en nuestro discord",
       "metrica3": "1000 seguidores en nuestro Instagram",
